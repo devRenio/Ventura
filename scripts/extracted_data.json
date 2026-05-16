@@ -1,0 +1,4745 @@
+{
+  "population_by_dong": [
+    {
+      "gu": "만안구",
+      "dong": "안양1동",
+      "total": 18948,
+      "male": 9472,
+      "female": 9476,
+      "households": 7949,
+      "koreans": 18504,
+      "foreigners": 444
+    },
+    {
+      "gu": "만안구",
+      "dong": "안양2동",
+      "total": 22879,
+      "male": 11470,
+      "female": 11409,
+      "households": 10732,
+      "koreans": 22147,
+      "foreigners": 732
+    },
+    {
+      "gu": "만안구",
+      "dong": "안양3동",
+      "total": 15348,
+      "male": 7551,
+      "female": 7797,
+      "households": 7205,
+      "koreans": 14790,
+      "foreigners": 558
+    },
+    {
+      "gu": "만안구",
+      "dong": "안양4동",
+      "total": 6690,
+      "male": 3338,
+      "female": 3352,
+      "households": 3516,
+      "koreans": 6457,
+      "foreigners": 233
+    },
+    {
+      "gu": "만안구",
+      "dong": "안양5동",
+      "total": 14970,
+      "male": 7402,
+      "female": 7568,
+      "households": 6717,
+      "koreans": 14547,
+      "foreigners": 423
+    },
+    {
+      "gu": "만안구",
+      "dong": "안양6동",
+      "total": 27828,
+      "male": 14006,
+      "female": 13822,
+      "households": 13133,
+      "koreans": 26928,
+      "foreigners": 900
+    },
+    {
+      "gu": "만안구",
+      "dong": "안양7동",
+      "total": 14794,
+      "male": 7310,
+      "female": 7484,
+      "households": 5804,
+      "koreans": 14608,
+      "foreigners": 186
+    },
+    {
+      "gu": "만안구",
+      "dong": "안양8동",
+      "total": 8271,
+      "male": 4251,
+      "female": 4020,
+      "households": 4132,
+      "koreans": 7827,
+      "foreigners": 444
+    },
+    {
+      "gu": "만안구",
+      "dong": "안양9동",
+      "total": 15692,
+      "male": 7716,
+      "female": 7976,
+      "households": 6958,
+      "koreans": 15597,
+      "foreigners": 95
+    },
+    {
+      "gu": "만안구",
+      "dong": "석수1동",
+      "total": 18410,
+      "male": 8949,
+      "female": 9461,
+      "households": 7472,
+      "koreans": 18291,
+      "foreigners": 119
+    },
+    {
+      "gu": "만안구",
+      "dong": "석수2동",
+      "total": 29129,
+      "male": 14510,
+      "female": 14619,
+      "households": 12392,
+      "koreans": 28786,
+      "foreigners": 343
+    },
+    {
+      "gu": "만안구",
+      "dong": "충훈동",
+      "total": 11807,
+      "male": 6017,
+      "female": 5790,
+      "households": 5297,
+      "koreans": 11717,
+      "foreigners": 90
+    },
+    {
+      "gu": "만안구",
+      "dong": "박달동",
+      "total": 14088,
+      "male": 7082,
+      "female": 7006,
+      "households": 6682,
+      "koreans": 13420,
+      "foreigners": 668
+    },
+    {
+      "gu": "만안구",
+      "dong": "호현동",
+      "total": 20295,
+      "male": 10080,
+      "female": 10215,
+      "households": 7533,
+      "koreans": 20130,
+      "foreigners": 165
+    },
+    {
+      "gu": "동안구",
+      "dong": "비산1동",
+      "total": 28340,
+      "male": 13729,
+      "female": 14611,
+      "households": 10546,
+      "koreans": 28231,
+      "foreigners": 109
+    },
+    {
+      "gu": "동안구",
+      "dong": "비산2동",
+      "total": 13240,
+      "male": 6508,
+      "female": 6732,
+      "households": 4771,
+      "koreans": 13192,
+      "foreigners": 48
+    },
+    {
+      "gu": "동안구",
+      "dong": "비산3동",
+      "total": 18020,
+      "male": 8917,
+      "female": 9103,
+      "households": 7719,
+      "koreans": 17899,
+      "foreigners": 121
+    },
+    {
+      "gu": "동안구",
+      "dong": "부흥동",
+      "total": 15979,
+      "male": 7630,
+      "female": 8349,
+      "households": 6316,
+      "koreans": 15946,
+      "foreigners": 33
+    },
+    {
+      "gu": "동안구",
+      "dong": "달안동",
+      "total": 9459,
+      "male": 4205,
+      "female": 5254,
+      "households": 5373,
+      "koreans": 9386,
+      "foreigners": 73
+    },
+    {
+      "gu": "동안구",
+      "dong": "관양동",
+      "total": 32333,
+      "male": 15822,
+      "female": 16511,
+      "households": 15277,
+      "koreans": 32076,
+      "foreigners": 257
+    },
+    {
+      "gu": "동안구",
+      "dong": "인덕원동",
+      "total": 18133,
+      "male": 9306,
+      "female": 8827,
+      "households": 8756,
+      "koreans": 17870,
+      "foreigners": 263
+    },
+    {
+      "gu": "동안구",
+      "dong": "부림동",
+      "total": 26630,
+      "male": 12836,
+      "female": 13794,
+      "households": 12697,
+      "koreans": 26355,
+      "foreigners": 275
+    },
+    {
+      "gu": "동안구",
+      "dong": "평촌동",
+      "total": 14908,
+      "male": 7325,
+      "female": 7583,
+      "households": 5368,
+      "koreans": 14872,
+      "foreigners": 36
+    },
+    {
+      "gu": "동안구",
+      "dong": "평안동",
+      "total": 22412,
+      "male": 10922,
+      "female": 11490,
+      "households": 8056,
+      "koreans": 22351,
+      "foreigners": 61
+    },
+    {
+      "gu": "동안구",
+      "dong": "귀인동",
+      "total": 16071,
+      "male": 7959,
+      "female": 8112,
+      "households": 5074,
+      "koreans": 16046,
+      "foreigners": 25
+    },
+    {
+      "gu": "동안구",
+      "dong": "호계1동",
+      "total": 27031,
+      "male": 13493,
+      "female": 13538,
+      "households": 10312,
+      "koreans": 26915,
+      "foreigners": 116
+    },
+    {
+      "gu": "동안구",
+      "dong": "호계2동",
+      "total": 27138,
+      "male": 13227,
+      "female": 13911,
+      "households": 10542,
+      "koreans": 27009,
+      "foreigners": 129
+    },
+    {
+      "gu": "동안구",
+      "dong": "호계3동",
+      "total": 24024,
+      "male": 12019,
+      "female": 12005,
+      "households": 9506,
+      "koreans": 23860,
+      "foreigners": 164
+    },
+    {
+      "gu": "동안구",
+      "dong": "범계동",
+      "total": 15107,
+      "male": 7265,
+      "female": 7842,
+      "households": 5872,
+      "koreans": 14995,
+      "foreigners": 112
+    },
+    {
+      "gu": "동안구",
+      "dong": "신촌동",
+      "total": 12265,
+      "male": 5949,
+      "female": 6316,
+      "households": 4425,
+      "koreans": 12232,
+      "foreigners": 33
+    },
+    {
+      "gu": "동안구",
+      "dong": "갈산동",
+      "total": 10359,
+      "male": 5030,
+      "female": 5329,
+      "households": 3849,
+      "koreans": 10295,
+      "foreigners": 64
+    }
+  ],
+  "city_age_brackets": [
+    {
+      "label": "계",
+      "total": 563279,
+      "male": 277696,
+      "female": 285583
+    },
+    {
+      "label": "0~4세",
+      "total": 16800,
+      "male": 8593,
+      "female": 8207
+    },
+    {
+      "label": "5~9세",
+      "total": 18364,
+      "male": 9312,
+      "female": 9052
+    },
+    {
+      "label": "10~14세",
+      "total": 24075,
+      "male": 12282,
+      "female": 11793
+    },
+    {
+      "label": "15~19세",
+      "total": 25103,
+      "male": 12938,
+      "female": 12165
+    },
+    {
+      "label": "20~24세",
+      "total": 26777,
+      "male": 13686,
+      "female": 13091
+    },
+    {
+      "label": "25~29세",
+      "total": 37330,
+      "male": 19299,
+      "female": 18031
+    },
+    {
+      "label": "30~34세",
+      "total": 45284,
+      "male": 23373,
+      "female": 21911
+    },
+    {
+      "label": "35~39세",
+      "total": 41408,
+      "male": 21363,
+      "female": 20045
+    },
+    {
+      "label": "40~44세",
+      "total": 42082,
+      "male": 21663,
+      "female": 20419
+    },
+    {
+      "label": "45~49세",
+      "total": 41073,
+      "male": 20202,
+      "female": 20871
+    },
+    {
+      "label": "50~54세",
+      "total": 46590,
+      "male": 22713,
+      "female": 23877
+    },
+    {
+      "label": "55~59세",
+      "total": 47784,
+      "male": 22932,
+      "female": 24852
+    },
+    {
+      "label": "60~64세",
+      "total": 45559,
+      "male": 21839,
+      "female": 23720
+    },
+    {
+      "label": "65~69세",
+      "total": 41191,
+      "male": 19770,
+      "female": 21421
+    },
+    {
+      "label": "70~74세",
+      "total": 25860,
+      "male": 12516,
+      "female": 13344
+    },
+    {
+      "label": "75~79세",
+      "total": 16880,
+      "male": 7775,
+      "female": 9105
+    },
+    {
+      "label": "80~84세",
+      "total": 11199,
+      "male": 4492,
+      "female": 6707
+    },
+    {
+      "label": "85~89세",
+      "total": 6591,
+      "male": 2166,
+      "female": 4425
+    },
+    {
+      "label": "90~94세",
+      "total": 2658,
+      "male": 658,
+      "female": 2000
+    },
+    {
+      "label": "95~99세",
+      "total": 600,
+      "male": 116,
+      "female": 484
+    }
+  ],
+  "dong_age_breakdown": {
+    "안양1동": [
+      {
+        "label": "0~4세",
+        "total": 774,
+        "male": 407,
+        "female": 367
+      },
+      {
+        "label": "5~9세",
+        "total": 518,
+        "male": 262,
+        "female": 256
+      },
+      {
+        "label": "10~14세",
+        "total": 509,
+        "male": 261,
+        "female": 248
+      },
+      {
+        "label": "15~19세",
+        "total": 691,
+        "male": 343,
+        "female": 348
+      },
+      {
+        "label": "20~24세",
+        "total": 974,
+        "male": 488,
+        "female": 486
+      },
+      {
+        "label": "25~29세",
+        "total": 1299,
+        "male": 656,
+        "female": 643
+      },
+      {
+        "label": "30~34세",
+        "total": 1825,
+        "male": 929,
+        "female": 896
+      },
+      {
+        "label": "35~39세",
+        "total": 1664,
+        "male": 853,
+        "female": 811
+      },
+      {
+        "label": "40~44세",
+        "total": 1305,
+        "male": 716,
+        "female": 589
+      },
+      {
+        "label": "45~49세",
+        "total": 1182,
+        "male": 597,
+        "female": 585
+      },
+      {
+        "label": "50~54세",
+        "total": 1484,
+        "male": 713,
+        "female": 771
+      },
+      {
+        "label": "55~59세",
+        "total": 1591,
+        "male": 770,
+        "female": 821
+      },
+      {
+        "label": "60~64세",
+        "total": 1422,
+        "male": 710,
+        "female": 712
+      },
+      {
+        "label": "65~69세",
+        "total": 1270,
+        "male": 597,
+        "female": 673
+      },
+      {
+        "label": "70~74세",
+        "total": 868,
+        "male": 421,
+        "female": 447
+      },
+      {
+        "label": "75~79세",
+        "total": 556,
+        "male": 268,
+        "female": 288
+      },
+      {
+        "label": "80~84세",
+        "total": 324,
+        "male": 152,
+        "female": 172
+      },
+      {
+        "label": "85~89세",
+        "total": 181,
+        "male": 63,
+        "female": 118
+      },
+      {
+        "label": "90~94세",
+        "total": 55,
+        "male": 14,
+        "female": 41
+      },
+      {
+        "label": "95~99세",
+        "total": 10,
+        "male": 1,
+        "female": 9
+      },
+      {
+        "label": "100세 이상",
+        "total": 2,
+        "male": 0,
+        "female": 2
+      }
+    ],
+    "안양2동": [
+      {
+        "label": "0~4세",
+        "total": 597,
+        "male": 311,
+        "female": 286
+      },
+      {
+        "label": "5~9세",
+        "total": 524,
+        "male": 266,
+        "female": 258
+      },
+      {
+        "label": "10~14세",
+        "total": 632,
+        "male": 311,
+        "female": 321
+      },
+      {
+        "label": "15~19세",
+        "total": 701,
+        "male": 346,
+        "female": 355
+      },
+      {
+        "label": "20~24세",
+        "total": 1056,
+        "male": 527,
+        "female": 529
+      },
+      {
+        "label": "25~29세",
+        "total": 1610,
+        "male": 819,
+        "female": 791
+      },
+      {
+        "label": "30~34세",
+        "total": 1921,
+        "male": 1029,
+        "female": 892
+      },
+      {
+        "label": "35~39세",
+        "total": 1674,
+        "male": 911,
+        "female": 763
+      },
+      {
+        "label": "40~44세",
+        "total": 1513,
+        "male": 837,
+        "female": 676
+      },
+      {
+        "label": "45~49세",
+        "total": 1365,
+        "male": 691,
+        "female": 674
+      },
+      {
+        "label": "50~54세",
+        "total": 1658,
+        "male": 842,
+        "female": 816
+      },
+      {
+        "label": "55~59세",
+        "total": 1948,
+        "male": 910,
+        "female": 1038
+      },
+      {
+        "label": "60~64세",
+        "total": 2009,
+        "male": 1007,
+        "female": 1002
+      },
+      {
+        "label": "65~69세",
+        "total": 1856,
+        "male": 906,
+        "female": 950
+      },
+      {
+        "label": "70~74세",
+        "total": 1227,
+        "male": 602,
+        "female": 625
+      },
+      {
+        "label": "75~79세",
+        "total": 802,
+        "male": 388,
+        "female": 414
+      },
+      {
+        "label": "80~84세",
+        "total": 591,
+        "male": 252,
+        "female": 339
+      },
+      {
+        "label": "85~89세",
+        "total": 308,
+        "male": 98,
+        "female": 210
+      },
+      {
+        "label": "90~94세",
+        "total": 119,
+        "male": 40,
+        "female": 79
+      },
+      {
+        "label": "95~99세",
+        "total": 26,
+        "male": 5,
+        "female": 21
+      },
+      {
+        "label": "100세 이상",
+        "total": 10,
+        "male": 1,
+        "female": 9
+      }
+    ],
+    "안양3동": [
+      {
+        "label": "0~4세",
+        "total": 159,
+        "male": 80,
+        "female": 79
+      },
+      {
+        "label": "5~9세",
+        "total": 273,
+        "male": 154,
+        "female": 119
+      },
+      {
+        "label": "10~14세",
+        "total": 385,
+        "male": 199,
+        "female": 186
+      },
+      {
+        "label": "15~19세",
+        "total": 561,
+        "male": 280,
+        "female": 281
+      },
+      {
+        "label": "20~24세",
+        "total": 804,
+        "male": 405,
+        "female": 399
+      },
+      {
+        "label": "25~29세",
+        "total": 1052,
+        "male": 561,
+        "female": 491
+      },
+      {
+        "label": "30~34세",
+        "total": 1063,
+        "male": 606,
+        "female": 457
+      },
+      {
+        "label": "35~39세",
+        "total": 787,
+        "male": 424,
+        "female": 363
+      },
+      {
+        "label": "40~44세",
+        "total": 876,
+        "male": 482,
+        "female": 394
+      },
+      {
+        "label": "45~49세",
+        "total": 956,
+        "male": 505,
+        "female": 451
+      },
+      {
+        "label": "50~54세",
+        "total": 1178,
+        "male": 584,
+        "female": 594
+      },
+      {
+        "label": "55~59세",
+        "total": 1374,
+        "male": 629,
+        "female": 745
+      },
+      {
+        "label": "60~64세",
+        "total": 1528,
+        "male": 706,
+        "female": 822
+      },
+      {
+        "label": "65~69세",
+        "total": 1493,
+        "male": 693,
+        "female": 800
+      },
+      {
+        "label": "70~74세",
+        "total": 960,
+        "male": 457,
+        "female": 503
+      },
+      {
+        "label": "75~79세",
+        "total": 652,
+        "male": 281,
+        "female": 371
+      },
+      {
+        "label": "80~84세",
+        "total": 384,
+        "male": 146,
+        "female": 238
+      },
+      {
+        "label": "85~89세",
+        "total": 217,
+        "male": 69,
+        "female": 148
+      },
+      {
+        "label": "90~94세",
+        "total": 75,
+        "male": 16,
+        "female": 59
+      },
+      {
+        "label": "95~99세",
+        "total": 13,
+        "male": 3,
+        "female": 10
+      },
+      {
+        "label": "100세 이상",
+        "total": 0,
+        "male": 0,
+        "female": 0
+      }
+    ],
+    "안양4동": [
+      {
+        "label": "0~4세",
+        "total": 69,
+        "male": 37,
+        "female": 32
+      },
+      {
+        "label": "5~9세",
+        "total": 71,
+        "male": 37,
+        "female": 34
+      },
+      {
+        "label": "10~14세",
+        "total": 142,
+        "male": 66,
+        "female": 76
+      },
+      {
+        "label": "15~19세",
+        "total": 236,
+        "male": 101,
+        "female": 135
+      },
+      {
+        "label": "20~24세",
+        "total": 368,
+        "male": 167,
+        "female": 201
+      },
+      {
+        "label": "25~29세",
+        "total": 487,
+        "male": 261,
+        "female": 226
+      },
+      {
+        "label": "30~34세",
+        "total": 482,
+        "male": 252,
+        "female": 230
+      },
+      {
+        "label": "35~39세",
+        "total": 339,
+        "male": 203,
+        "female": 136
+      },
+      {
+        "label": "40~44세",
+        "total": 385,
+        "male": 229,
+        "female": 156
+      },
+      {
+        "label": "45~49세",
+        "total": 395,
+        "male": 221,
+        "female": 174
+      },
+      {
+        "label": "50~54세",
+        "total": 485,
+        "male": 257,
+        "female": 228
+      },
+      {
+        "label": "55~59세",
+        "total": 590,
+        "male": 295,
+        "female": 295
+      },
+      {
+        "label": "60~64세",
+        "total": 618,
+        "male": 319,
+        "female": 299
+      },
+      {
+        "label": "65~69세",
+        "total": 585,
+        "male": 279,
+        "female": 306
+      },
+      {
+        "label": "70~74세",
+        "total": 427,
+        "male": 207,
+        "female": 220
+      },
+      {
+        "label": "75~79세",
+        "total": 311,
+        "male": 124,
+        "female": 187
+      },
+      {
+        "label": "80~84세",
+        "total": 242,
+        "male": 86,
+        "female": 156
+      },
+      {
+        "label": "85~89세",
+        "total": 153,
+        "male": 48,
+        "female": 105
+      },
+      {
+        "label": "90~94세",
+        "total": 56,
+        "male": 24,
+        "female": 32
+      },
+      {
+        "label": "95~99세",
+        "total": 16,
+        "male": 9,
+        "female": 7
+      },
+      {
+        "label": "100세 이상",
+        "total": 0,
+        "male": 0,
+        "female": 0
+      }
+    ],
+    "안양5동": [
+      {
+        "label": "0~4세",
+        "total": 589,
+        "male": 301,
+        "female": 288
+      },
+      {
+        "label": "5~9세",
+        "total": 424,
+        "male": 207,
+        "female": 217
+      },
+      {
+        "label": "10~14세",
+        "total": 418,
+        "male": 229,
+        "female": 189
+      },
+      {
+        "label": "15~19세",
+        "total": 563,
+        "male": 294,
+        "female": 269
+      },
+      {
+        "label": "20~24세",
+        "total": 639,
+        "male": 322,
+        "female": 317
+      },
+      {
+        "label": "25~29세",
+        "total": 881,
+        "male": 448,
+        "female": 433
+      },
+      {
+        "label": "30~34세",
+        "total": 1213,
+        "male": 610,
+        "female": 603
+      },
+      {
+        "label": "35~39세",
+        "total": 1222,
+        "male": 651,
+        "female": 571
+      },
+      {
+        "label": "40~44세",
+        "total": 1066,
+        "male": 578,
+        "female": 488
+      },
+      {
+        "label": "45~49세",
+        "total": 977,
+        "male": 497,
+        "female": 480
+      },
+      {
+        "label": "50~54세",
+        "total": 1093,
+        "male": 559,
+        "female": 534
+      },
+      {
+        "label": "55~59세",
+        "total": 1140,
+        "male": 558,
+        "female": 582
+      },
+      {
+        "label": "60~64세",
+        "total": 1184,
+        "male": 584,
+        "female": 600
+      },
+      {
+        "label": "65~69세",
+        "total": 1099,
+        "male": 509,
+        "female": 590
+      },
+      {
+        "label": "70~74세",
+        "total": 768,
+        "male": 365,
+        "female": 403
+      },
+      {
+        "label": "75~79세",
+        "total": 518,
+        "male": 238,
+        "female": 280
+      },
+      {
+        "label": "80~84세",
+        "total": 413,
+        "male": 157,
+        "female": 256
+      },
+      {
+        "label": "85~89세",
+        "total": 234,
+        "male": 81,
+        "female": 153
+      },
+      {
+        "label": "90~94세",
+        "total": 89,
+        "male": 18,
+        "female": 71
+      },
+      {
+        "label": "95~99세",
+        "total": 16,
+        "male": 1,
+        "female": 15
+      },
+      {
+        "label": "100세 이상",
+        "total": 1,
+        "male": 0,
+        "female": 1
+      }
+    ],
+    "안양6동": [
+      {
+        "label": "0~4세",
+        "total": 1018,
+        "male": 489,
+        "female": 529
+      },
+      {
+        "label": "5~9세",
+        "total": 766,
+        "male": 379,
+        "female": 387
+      },
+      {
+        "label": "10~14세",
+        "total": 674,
+        "male": 353,
+        "female": 321
+      },
+      {
+        "label": "15~19세",
+        "total": 843,
+        "male": 444,
+        "female": 399
+      },
+      {
+        "label": "20~24세",
+        "total": 1123,
+        "male": 540,
+        "female": 583
+      },
+      {
+        "label": "25~29세",
+        "total": 2212,
+        "male": 1064,
+        "female": 1148
+      },
+      {
+        "label": "30~34세",
+        "total": 3093,
+        "male": 1653,
+        "female": 1440
+      },
+      {
+        "label": "35~39세",
+        "total": 2430,
+        "male": 1316,
+        "female": 1114
+      },
+      {
+        "label": "40~44세",
+        "total": 2205,
+        "male": 1212,
+        "female": 993
+      },
+      {
+        "label": "45~49세",
+        "total": 1783,
+        "male": 956,
+        "female": 827
+      },
+      {
+        "label": "50~54세",
+        "total": 1926,
+        "male": 959,
+        "female": 967
+      },
+      {
+        "label": "55~59세",
+        "total": 2092,
+        "male": 1033,
+        "female": 1059
+      },
+      {
+        "label": "60~64세",
+        "total": 1969,
+        "male": 972,
+        "female": 997
+      },
+      {
+        "label": "65~69세",
+        "total": 1866,
+        "male": 884,
+        "female": 982
+      },
+      {
+        "label": "70~74세",
+        "total": 1186,
+        "male": 547,
+        "female": 639
+      },
+      {
+        "label": "75~79세",
+        "total": 783,
+        "male": 378,
+        "female": 405
+      },
+      {
+        "label": "80~84세",
+        "total": 525,
+        "male": 234,
+        "female": 291
+      },
+      {
+        "label": "85~89세",
+        "total": 288,
+        "male": 94,
+        "female": 194
+      },
+      {
+        "label": "90~94세",
+        "total": 121,
+        "male": 37,
+        "female": 84
+      },
+      {
+        "label": "95~99세",
+        "total": 23,
+        "male": 6,
+        "female": 17
+      },
+      {
+        "label": "100세 이상",
+        "total": 2,
+        "male": 0,
+        "female": 2
+      }
+    ],
+    "안양7동": [
+      {
+        "label": "0~4세",
+        "total": 688,
+        "male": 344,
+        "female": 344
+      },
+      {
+        "label": "5~9세",
+        "total": 657,
+        "male": 322,
+        "female": 335
+      },
+      {
+        "label": "10~14세",
+        "total": 688,
+        "male": 348,
+        "female": 340
+      },
+      {
+        "label": "15~19세",
+        "total": 565,
+        "male": 295,
+        "female": 270
+      },
+      {
+        "label": "20~24세",
+        "total": 608,
+        "male": 315,
+        "female": 293
+      },
+      {
+        "label": "25~29세",
+        "total": 881,
+        "male": 453,
+        "female": 428
+      },
+      {
+        "label": "30~34세",
+        "total": 1321,
+        "male": 648,
+        "female": 673
+      },
+      {
+        "label": "35~39세",
+        "total": 1257,
+        "male": 601,
+        "female": 656
+      },
+      {
+        "label": "40~44세",
+        "total": 1359,
+        "male": 727,
+        "female": 632
+      },
+      {
+        "label": "45~49세",
+        "total": 1150,
+        "male": 590,
+        "female": 560
+      },
+      {
+        "label": "50~54세",
+        "total": 1109,
+        "male": 532,
+        "female": 577
+      },
+      {
+        "label": "55~59세",
+        "total": 1080,
+        "male": 528,
+        "female": 552
+      },
+      {
+        "label": "60~64세",
+        "total": 1008,
+        "male": 489,
+        "female": 519
+      },
+      {
+        "label": "65~69세",
+        "total": 821,
+        "male": 379,
+        "female": 442
+      },
+      {
+        "label": "70~74세",
+        "total": 605,
+        "male": 280,
+        "female": 325
+      },
+      {
+        "label": "75~79세",
+        "total": 355,
+        "male": 152,
+        "female": 203
+      },
+      {
+        "label": "80~84세",
+        "total": 254,
+        "male": 109,
+        "female": 145
+      },
+      {
+        "label": "85~89세",
+        "total": 127,
+        "male": 52,
+        "female": 75
+      },
+      {
+        "label": "90~94세",
+        "total": 52,
+        "male": 10,
+        "female": 42
+      },
+      {
+        "label": "95~99세",
+        "total": 19,
+        "male": 4,
+        "female": 15
+      },
+      {
+        "label": "100세 이상",
+        "total": 4,
+        "male": 0,
+        "female": 4
+      }
+    ],
+    "안양8동": [
+      {
+        "label": "0~4세",
+        "total": 85,
+        "male": 41,
+        "female": 44
+      },
+      {
+        "label": "5~9세",
+        "total": 110,
+        "male": 55,
+        "female": 55
+      },
+      {
+        "label": "10~14세",
+        "total": 194,
+        "male": 108,
+        "female": 86
+      },
+      {
+        "label": "15~19세",
+        "total": 242,
+        "male": 123,
+        "female": 119
+      },
+      {
+        "label": "20~24세",
+        "total": 411,
+        "male": 211,
+        "female": 200
+      },
+      {
+        "label": "25~29세",
+        "total": 575,
+        "male": 331,
+        "female": 244
+      },
+      {
+        "label": "30~34세",
+        "total": 574,
+        "male": 336,
+        "female": 238
+      },
+      {
+        "label": "35~39세",
+        "total": 428,
+        "male": 256,
+        "female": 172
+      },
+      {
+        "label": "40~44세",
+        "total": 441,
+        "male": 259,
+        "female": 182
+      },
+      {
+        "label": "45~49세",
+        "total": 508,
+        "male": 272,
+        "female": 236
+      },
+      {
+        "label": "50~54세",
+        "total": 610,
+        "male": 321,
+        "female": 289
+      },
+      {
+        "label": "55~59세",
+        "total": 747,
+        "male": 385,
+        "female": 362
+      },
+      {
+        "label": "60~64세",
+        "total": 774,
+        "male": 371,
+        "female": 403
+      },
+      {
+        "label": "65~69세",
+        "total": 844,
+        "male": 388,
+        "female": 456
+      },
+      {
+        "label": "70~74세",
+        "total": 558,
+        "male": 275,
+        "female": 283
+      },
+      {
+        "label": "75~79세",
+        "total": 334,
+        "male": 158,
+        "female": 176
+      },
+      {
+        "label": "80~84세",
+        "total": 225,
+        "male": 89,
+        "female": 136
+      },
+      {
+        "label": "85~89세",
+        "total": 124,
+        "male": 45,
+        "female": 79
+      },
+      {
+        "label": "90~94세",
+        "total": 38,
+        "male": 13,
+        "female": 25
+      },
+      {
+        "label": "95~99세",
+        "total": 5,
+        "male": 1,
+        "female": 4
+      },
+      {
+        "label": "100세 이상",
+        "total": 0,
+        "male": 0,
+        "female": 0
+      }
+    ],
+    "안양9동": [
+      {
+        "label": "0~4세",
+        "total": 223,
+        "male": 115,
+        "female": 108
+      },
+      {
+        "label": "5~9세",
+        "total": 321,
+        "male": 156,
+        "female": 165
+      },
+      {
+        "label": "10~14세",
+        "total": 479,
+        "male": 248,
+        "female": 231
+      },
+      {
+        "label": "15~19세",
+        "total": 546,
+        "male": 254,
+        "female": 292
+      },
+      {
+        "label": "20~24세",
+        "total": 638,
+        "male": 337,
+        "female": 301
+      },
+      {
+        "label": "25~29세",
+        "total": 936,
+        "male": 525,
+        "female": 411
+      },
+      {
+        "label": "30~34세",
+        "total": 994,
+        "male": 547,
+        "female": 447
+      },
+      {
+        "label": "35~39세",
+        "total": 841,
+        "male": 476,
+        "female": 365
+      },
+      {
+        "label": "40~44세",
+        "total": 896,
+        "male": 469,
+        "female": 427
+      },
+      {
+        "label": "45~49세",
+        "total": 1000,
+        "male": 534,
+        "female": 466
+      },
+      {
+        "label": "50~54세",
+        "total": 1166,
+        "male": 562,
+        "female": 604
+      },
+      {
+        "label": "55~59세",
+        "total": 1509,
+        "male": 734,
+        "female": 775
+      },
+      {
+        "label": "60~64세",
+        "total": 1654,
+        "male": 760,
+        "female": 894
+      },
+      {
+        "label": "65~69세",
+        "total": 1614,
+        "male": 755,
+        "female": 859
+      },
+      {
+        "label": "70~74세",
+        "total": 1124,
+        "male": 528,
+        "female": 596
+      },
+      {
+        "label": "75~79세",
+        "total": 753,
+        "male": 358,
+        "female": 395
+      },
+      {
+        "label": "80~84세",
+        "total": 497,
+        "male": 192,
+        "female": 305
+      },
+      {
+        "label": "85~89세",
+        "total": 276,
+        "male": 95,
+        "female": 181
+      },
+      {
+        "label": "90~94세",
+        "total": 107,
+        "male": 28,
+        "female": 79
+      },
+      {
+        "label": "95~99세",
+        "total": 22,
+        "male": 2,
+        "female": 20
+      },
+      {
+        "label": "100세 이상",
+        "total": 1,
+        "male": 0,
+        "female": 1
+      }
+    ],
+    "석수1동": [
+      {
+        "label": "0~4세",
+        "total": 491,
+        "male": 247,
+        "female": 244
+      },
+      {
+        "label": "5~9세",
+        "total": 516,
+        "male": 280,
+        "female": 236
+      },
+      {
+        "label": "10~14세",
+        "total": 607,
+        "male": 302,
+        "female": 305
+      },
+      {
+        "label": "15~19세",
+        "total": 634,
+        "male": 337,
+        "female": 297
+      },
+      {
+        "label": "20~24세",
+        "total": 824,
+        "male": 434,
+        "female": 390
+      },
+      {
+        "label": "25~29세",
+        "total": 1116,
+        "male": 577,
+        "female": 539
+      },
+      {
+        "label": "30~34세",
+        "total": 1271,
+        "male": 659,
+        "female": 612
+      },
+      {
+        "label": "35~39세",
+        "total": 1204,
+        "male": 599,
+        "female": 605
+      },
+      {
+        "label": "40~44세",
+        "total": 1187,
+        "male": 595,
+        "female": 592
+      },
+      {
+        "label": "45~49세",
+        "total": 1149,
+        "male": 548,
+        "female": 601
+      },
+      {
+        "label": "50~54세",
+        "total": 1572,
+        "male": 733,
+        "female": 839
+      },
+      {
+        "label": "55~59세",
+        "total": 1707,
+        "male": 789,
+        "female": 918
+      },
+      {
+        "label": "60~64세",
+        "total": 1642,
+        "male": 765,
+        "female": 877
+      },
+      {
+        "label": "65~69세",
+        "total": 1645,
+        "male": 809,
+        "female": 836
+      },
+      {
+        "label": "70~74세",
+        "total": 1085,
+        "male": 519,
+        "female": 566
+      },
+      {
+        "label": "75~79세",
+        "total": 769,
+        "male": 377,
+        "female": 392
+      },
+      {
+        "label": "80~84세",
+        "total": 457,
+        "male": 210,
+        "female": 247
+      },
+      {
+        "label": "85~89세",
+        "total": 275,
+        "male": 89,
+        "female": 186
+      },
+      {
+        "label": "90~94세",
+        "total": 106,
+        "male": 24,
+        "female": 82
+      },
+      {
+        "label": "95~99세",
+        "total": 29,
+        "male": 2,
+        "female": 27
+      },
+      {
+        "label": "100세 이상",
+        "total": 5,
+        "male": 0,
+        "female": 5
+      }
+    ],
+    "석수2동": [
+      {
+        "label": "0~4세",
+        "total": 641,
+        "male": 339,
+        "female": 302
+      },
+      {
+        "label": "5~9세",
+        "total": 691,
+        "male": 333,
+        "female": 358
+      },
+      {
+        "label": "10~14세",
+        "total": 967,
+        "male": 518,
+        "female": 449
+      },
+      {
+        "label": "15~19세",
+        "total": 1092,
+        "male": 582,
+        "female": 510
+      },
+      {
+        "label": "20~24세",
+        "total": 1391,
+        "male": 706,
+        "female": 685
+      },
+      {
+        "label": "25~29세",
+        "total": 1948,
+        "male": 1037,
+        "female": 911
+      },
+      {
+        "label": "30~34세",
+        "total": 2035,
+        "male": 1062,
+        "female": 973
+      },
+      {
+        "label": "35~39세",
+        "total": 1660,
+        "male": 860,
+        "female": 800
+      },
+      {
+        "label": "40~44세",
+        "total": 1827,
+        "male": 968,
+        "female": 859
+      },
+      {
+        "label": "45~49세",
+        "total": 1903,
+        "male": 967,
+        "female": 936
+      },
+      {
+        "label": "50~54세",
+        "total": 2401,
+        "male": 1191,
+        "female": 1210
+      },
+      {
+        "label": "55~59세",
+        "total": 2850,
+        "male": 1401,
+        "female": 1449
+      },
+      {
+        "label": "60~64세",
+        "total": 2846,
+        "male": 1422,
+        "female": 1424
+      },
+      {
+        "label": "65~69세",
+        "total": 2403,
+        "male": 1202,
+        "female": 1201
+      },
+      {
+        "label": "70~74세",
+        "total": 1540,
+        "male": 731,
+        "female": 809
+      },
+      {
+        "label": "75~79세",
+        "total": 1111,
+        "male": 515,
+        "female": 596
+      },
+      {
+        "label": "80~84세",
+        "total": 794,
+        "male": 321,
+        "female": 473
+      },
+      {
+        "label": "85~89세",
+        "total": 467,
+        "male": 143,
+        "female": 324
+      },
+      {
+        "label": "90~94세",
+        "total": 171,
+        "male": 51,
+        "female": 120
+      },
+      {
+        "label": "95~99세",
+        "total": 40,
+        "male": 8,
+        "female": 32
+      },
+      {
+        "label": "100세 이상",
+        "total": 8,
+        "male": 0,
+        "female": 8
+      }
+    ],
+    "충훈동": [
+      {
+        "label": "0~4세",
+        "total": 261,
+        "male": 120,
+        "female": 141
+      },
+      {
+        "label": "5~9세",
+        "total": 276,
+        "male": 131,
+        "female": 145
+      },
+      {
+        "label": "10~14세",
+        "total": 412,
+        "male": 215,
+        "female": 197
+      },
+      {
+        "label": "15~19세",
+        "total": 516,
+        "male": 282,
+        "female": 234
+      },
+      {
+        "label": "20~24세",
+        "total": 607,
+        "male": 349,
+        "female": 258
+      },
+      {
+        "label": "25~29세",
+        "total": 754,
+        "male": 439,
+        "female": 315
+      },
+      {
+        "label": "30~34세",
+        "total": 793,
+        "male": 437,
+        "female": 356
+      },
+      {
+        "label": "35~39세",
+        "total": 652,
+        "male": 348,
+        "female": 304
+      },
+      {
+        "label": "40~44세",
+        "total": 665,
+        "male": 337,
+        "female": 328
+      },
+      {
+        "label": "45~49세",
+        "total": 786,
+        "male": 408,
+        "female": 378
+      },
+      {
+        "label": "50~54세",
+        "total": 1007,
+        "male": 519,
+        "female": 488
+      },
+      {
+        "label": "55~59세",
+        "total": 1160,
+        "male": 563,
+        "female": 597
+      },
+      {
+        "label": "60~64세",
+        "total": 1167,
+        "male": 587,
+        "female": 580
+      },
+      {
+        "label": "65~69세",
+        "total": 1102,
+        "male": 563,
+        "female": 539
+      },
+      {
+        "label": "70~74세",
+        "total": 628,
+        "male": 313,
+        "female": 315
+      },
+      {
+        "label": "75~79세",
+        "total": 420,
+        "male": 196,
+        "female": 224
+      },
+      {
+        "label": "80~84세",
+        "total": 262,
+        "male": 100,
+        "female": 162
+      },
+      {
+        "label": "85~89세",
+        "total": 175,
+        "male": 44,
+        "female": 131
+      },
+      {
+        "label": "90~94세",
+        "total": 65,
+        "male": 13,
+        "female": 52
+      },
+      {
+        "label": "95~99세",
+        "total": 8,
+        "male": 0,
+        "female": 8
+      },
+      {
+        "label": "100세 이상",
+        "total": 1,
+        "male": 0,
+        "female": 1
+      }
+    ],
+    "박달동": [
+      {
+        "label": "0~4세",
+        "total": 139,
+        "male": 69,
+        "female": 70
+      },
+      {
+        "label": "5~9세",
+        "total": 220,
+        "male": 106,
+        "female": 114
+      },
+      {
+        "label": "10~14세",
+        "total": 354,
+        "male": 162,
+        "female": 192
+      },
+      {
+        "label": "15~19세",
+        "total": 507,
+        "male": 268,
+        "female": 239
+      },
+      {
+        "label": "20~24세",
+        "total": 582,
+        "male": 280,
+        "female": 302
+      },
+      {
+        "label": "25~29세",
+        "total": 861,
+        "male": 439,
+        "female": 422
+      },
+      {
+        "label": "30~34세",
+        "total": 827,
+        "male": 468,
+        "female": 359
+      },
+      {
+        "label": "35~39세",
+        "total": 637,
+        "male": 363,
+        "female": 274
+      },
+      {
+        "label": "40~44세",
+        "total": 671,
+        "male": 373,
+        "female": 298
+      },
+      {
+        "label": "45~49세",
+        "total": 876,
+        "male": 451,
+        "female": 425
+      },
+      {
+        "label": "50~54세",
+        "total": 1190,
+        "male": 621,
+        "female": 569
+      },
+      {
+        "label": "55~59세",
+        "total": 1429,
+        "male": 747,
+        "female": 682
+      },
+      {
+        "label": "60~64세",
+        "total": 1427,
+        "male": 745,
+        "female": 682
+      },
+      {
+        "label": "65~69세",
+        "total": 1329,
+        "male": 622,
+        "female": 707
+      },
+      {
+        "label": "70~74세",
+        "total": 859,
+        "male": 412,
+        "female": 447
+      },
+      {
+        "label": "75~79세",
+        "total": 671,
+        "male": 295,
+        "female": 376
+      },
+      {
+        "label": "80~84세",
+        "total": 464,
+        "male": 185,
+        "female": 279
+      },
+      {
+        "label": "85~89세",
+        "total": 259,
+        "male": 79,
+        "female": 180
+      },
+      {
+        "label": "90~94세",
+        "total": 98,
+        "male": 26,
+        "female": 72
+      },
+      {
+        "label": "95~99세",
+        "total": 18,
+        "male": 4,
+        "female": 14
+      },
+      {
+        "label": "100세 이상",
+        "total": 2,
+        "male": 0,
+        "female": 2
+      }
+    ],
+    "호현동": [
+      {
+        "label": "0~4세",
+        "total": 633,
+        "male": 332,
+        "female": 301
+      },
+      {
+        "label": "5~9세",
+        "total": 796,
+        "male": 399,
+        "female": 397
+      },
+      {
+        "label": "10~14세",
+        "total": 1031,
+        "male": 535,
+        "female": 496
+      },
+      {
+        "label": "15~19세",
+        "total": 1053,
+        "male": 551,
+        "female": 502
+      },
+      {
+        "label": "20~24세",
+        "total": 987,
+        "male": 522,
+        "female": 465
+      },
+      {
+        "label": "25~29세",
+        "total": 1261,
+        "male": 673,
+        "female": 588
+      },
+      {
+        "label": "30~34세",
+        "total": 1451,
+        "male": 742,
+        "female": 709
+      },
+      {
+        "label": "35~39세",
+        "total": 1405,
+        "male": 712,
+        "female": 693
+      },
+      {
+        "label": "40~44세",
+        "total": 1547,
+        "male": 801,
+        "female": 746
+      },
+      {
+        "label": "45~49세",
+        "total": 1492,
+        "male": 742,
+        "female": 750
+      },
+      {
+        "label": "50~54세",
+        "total": 1616,
+        "male": 809,
+        "female": 807
+      },
+      {
+        "label": "55~59세",
+        "total": 1642,
+        "male": 711,
+        "female": 931
+      },
+      {
+        "label": "60~64세",
+        "total": 1698,
+        "male": 797,
+        "female": 901
+      },
+      {
+        "label": "65~69세",
+        "total": 1540,
+        "male": 759,
+        "female": 781
+      },
+      {
+        "label": "70~74세",
+        "total": 838,
+        "male": 421,
+        "female": 417
+      },
+      {
+        "label": "75~79세",
+        "total": 558,
+        "male": 282,
+        "female": 276
+      },
+      {
+        "label": "80~84세",
+        "total": 288,
+        "male": 113,
+        "female": 175
+      },
+      {
+        "label": "85~89세",
+        "total": 191,
+        "male": 64,
+        "female": 127
+      },
+      {
+        "label": "90~94세",
+        "total": 87,
+        "male": 23,
+        "female": 64
+      },
+      {
+        "label": "95~99세",
+        "total": 16,
+        "male": 3,
+        "female": 13
+      },
+      {
+        "label": "100세 이상",
+        "total": 0,
+        "male": 0,
+        "female": 0
+      }
+    ],
+    "비산1동": [
+      {
+        "label": "0~4세",
+        "total": 1196,
+        "male": 601,
+        "female": 595
+      },
+      {
+        "label": "5~9세",
+        "total": 1256,
+        "male": 638,
+        "female": 618
+      },
+      {
+        "label": "10~14세",
+        "total": 1201,
+        "male": 612,
+        "female": 589
+      },
+      {
+        "label": "15~19세",
+        "total": 1165,
+        "male": 585,
+        "female": 580
+      },
+      {
+        "label": "20~24세",
+        "total": 1379,
+        "male": 716,
+        "female": 663
+      },
+      {
+        "label": "25~29세",
+        "total": 1672,
+        "male": 830,
+        "female": 842
+      },
+      {
+        "label": "30~34세",
+        "total": 2059,
+        "male": 973,
+        "female": 1086
+      },
+      {
+        "label": "35~39세",
+        "total": 2544,
+        "male": 1248,
+        "female": 1296
+      },
+      {
+        "label": "40~44세",
+        "total": 2355,
+        "male": 1233,
+        "female": 1122
+      },
+      {
+        "label": "45~49세",
+        "total": 1997,
+        "male": 950,
+        "female": 1047
+      },
+      {
+        "label": "50~54세",
+        "total": 2290,
+        "male": 1050,
+        "female": 1240
+      },
+      {
+        "label": "55~59세",
+        "total": 2258,
+        "male": 1077,
+        "female": 1181
+      },
+      {
+        "label": "60~64세",
+        "total": 2163,
+        "male": 997,
+        "female": 1166
+      },
+      {
+        "label": "65~69세",
+        "total": 2016,
+        "male": 951,
+        "female": 1065
+      },
+      {
+        "label": "70~74세",
+        "total": 1215,
+        "male": 610,
+        "female": 605
+      },
+      {
+        "label": "75~79세",
+        "total": 686,
+        "male": 330,
+        "female": 356
+      },
+      {
+        "label": "80~84세",
+        "total": 406,
+        "male": 169,
+        "female": 237
+      },
+      {
+        "label": "85~89세",
+        "total": 240,
+        "male": 83,
+        "female": 157
+      },
+      {
+        "label": "90~94세",
+        "total": 98,
+        "male": 25,
+        "female": 73
+      },
+      {
+        "label": "95~99세",
+        "total": 31,
+        "male": 9,
+        "female": 22
+      },
+      {
+        "label": "100세 이상",
+        "total": 4,
+        "male": 0,
+        "female": 4
+      }
+    ],
+    "비산2동": [
+      {
+        "label": "0~4세",
+        "total": 550,
+        "male": 314,
+        "female": 236
+      },
+      {
+        "label": "5~9세",
+        "total": 586,
+        "male": 317,
+        "female": 269
+      },
+      {
+        "label": "10~14세",
+        "total": 566,
+        "male": 276,
+        "female": 290
+      },
+      {
+        "label": "15~19세",
+        "total": 600,
+        "male": 298,
+        "female": 302
+      },
+      {
+        "label": "20~24세",
+        "total": 705,
+        "male": 364,
+        "female": 341
+      },
+      {
+        "label": "25~29세",
+        "total": 726,
+        "male": 365,
+        "female": 361
+      },
+      {
+        "label": "30~34세",
+        "total": 926,
+        "male": 442,
+        "female": 484
+      },
+      {
+        "label": "35~39세",
+        "total": 1123,
+        "male": 546,
+        "female": 577
+      },
+      {
+        "label": "40~44세",
+        "total": 1097,
+        "male": 579,
+        "female": 518
+      },
+      {
+        "label": "45~49세",
+        "total": 955,
+        "male": 464,
+        "female": 491
+      },
+      {
+        "label": "50~54세",
+        "total": 1098,
+        "male": 517,
+        "female": 581
+      },
+      {
+        "label": "55~59세",
+        "total": 1062,
+        "male": 508,
+        "female": 554
+      },
+      {
+        "label": "60~64세",
+        "total": 1038,
+        "male": 484,
+        "female": 554
+      },
+      {
+        "label": "65~69세",
+        "total": 862,
+        "male": 431,
+        "female": 431
+      },
+      {
+        "label": "70~74세",
+        "total": 541,
+        "male": 255,
+        "female": 286
+      },
+      {
+        "label": "75~79세",
+        "total": 368,
+        "male": 176,
+        "female": 192
+      },
+      {
+        "label": "80~84세",
+        "total": 221,
+        "male": 92,
+        "female": 129
+      },
+      {
+        "label": "85~89세",
+        "total": 100,
+        "male": 41,
+        "female": 59
+      },
+      {
+        "label": "90~94세",
+        "total": 51,
+        "male": 8,
+        "female": 43
+      },
+      {
+        "label": "95~99세",
+        "total": 14,
+        "male": 1,
+        "female": 13
+      },
+      {
+        "label": "100세 이상",
+        "total": 3,
+        "male": 0,
+        "female": 3
+      }
+    ],
+    "비산3동": [
+      {
+        "label": "0~4세",
+        "total": 667,
+        "male": 331,
+        "female": 336
+      },
+      {
+        "label": "5~9세",
+        "total": 585,
+        "male": 278,
+        "female": 307
+      },
+      {
+        "label": "10~14세",
+        "total": 578,
+        "male": 289,
+        "female": 289
+      },
+      {
+        "label": "15~19세",
+        "total": 661,
+        "male": 353,
+        "female": 308
+      },
+      {
+        "label": "20~24세",
+        "total": 806,
+        "male": 430,
+        "female": 376
+      },
+      {
+        "label": "25~29세",
+        "total": 1268,
+        "male": 673,
+        "female": 595
+      },
+      {
+        "label": "30~34세",
+        "total": 1574,
+        "male": 804,
+        "female": 770
+      },
+      {
+        "label": "35~39세",
+        "total": 1385,
+        "male": 731,
+        "female": 654
+      },
+      {
+        "label": "40~44세",
+        "total": 1247,
+        "male": 657,
+        "female": 590
+      },
+      {
+        "label": "45~49세",
+        "total": 1102,
+        "male": 575,
+        "female": 527
+      },
+      {
+        "label": "50~54세",
+        "total": 1424,
+        "male": 666,
+        "female": 758
+      },
+      {
+        "label": "55~59세",
+        "total": 1547,
+        "male": 721,
+        "female": 826
+      },
+      {
+        "label": "60~64세",
+        "total": 1641,
+        "male": 801,
+        "female": 840
+      },
+      {
+        "label": "65~69세",
+        "total": 1438,
+        "male": 699,
+        "female": 739
+      },
+      {
+        "label": "70~74세",
+        "total": 773,
+        "male": 374,
+        "female": 399
+      },
+      {
+        "label": "75~79세",
+        "total": 535,
+        "male": 255,
+        "female": 280
+      },
+      {
+        "label": "80~84세",
+        "total": 359,
+        "male": 131,
+        "female": 228
+      },
+      {
+        "label": "85~89세",
+        "total": 202,
+        "male": 56,
+        "female": 146
+      },
+      {
+        "label": "90~94세",
+        "total": 89,
+        "male": 20,
+        "female": 69
+      },
+      {
+        "label": "95~99세",
+        "total": 18,
+        "male": 6,
+        "female": 12
+      },
+      {
+        "label": "100세 이상",
+        "total": 0,
+        "male": 0,
+        "female": 0
+      }
+    ],
+    "부흥동": [
+      {
+        "label": "0~4세",
+        "total": 428,
+        "male": 213,
+        "female": 215
+      },
+      {
+        "label": "5~9세",
+        "total": 562,
+        "male": 306,
+        "female": 256
+      },
+      {
+        "label": "10~14세",
+        "total": 828,
+        "male": 437,
+        "female": 391
+      },
+      {
+        "label": "15~19세",
+        "total": 983,
+        "male": 517,
+        "female": 466
+      },
+      {
+        "label": "20~24세",
+        "total": 831,
+        "male": 440,
+        "female": 391
+      },
+      {
+        "label": "25~29세",
+        "total": 936,
+        "male": 475,
+        "female": 461
+      },
+      {
+        "label": "30~34세",
+        "total": 1028,
+        "male": 507,
+        "female": 521
+      },
+      {
+        "label": "35~39세",
+        "total": 1003,
+        "male": 494,
+        "female": 509
+      },
+      {
+        "label": "40~44세",
+        "total": 1168,
+        "male": 538,
+        "female": 630
+      },
+      {
+        "label": "45~49세",
+        "total": 1316,
+        "male": 587,
+        "female": 729
+      },
+      {
+        "label": "50~54세",
+        "total": 1460,
+        "male": 708,
+        "female": 752
+      },
+      {
+        "label": "55~59세",
+        "total": 1270,
+        "male": 618,
+        "female": 652
+      },
+      {
+        "label": "60~64세",
+        "total": 1121,
+        "male": 512,
+        "female": 609
+      },
+      {
+        "label": "65~69세",
+        "total": 1108,
+        "male": 479,
+        "female": 629
+      },
+      {
+        "label": "70~74세",
+        "total": 790,
+        "male": 389,
+        "female": 401
+      },
+      {
+        "label": "75~79세",
+        "total": 480,
+        "male": 203,
+        "female": 277
+      },
+      {
+        "label": "80~84세",
+        "total": 332,
+        "male": 118,
+        "female": 214
+      },
+      {
+        "label": "85~89세",
+        "total": 173,
+        "male": 56,
+        "female": 117
+      },
+      {
+        "label": "90~94세",
+        "total": 103,
+        "male": 19,
+        "female": 84
+      },
+      {
+        "label": "95~99세",
+        "total": 25,
+        "male": 5,
+        "female": 20
+      },
+      {
+        "label": "100세 이상",
+        "total": 1,
+        "male": 0,
+        "female": 1
+      }
+    ],
+    "달안동": [
+      {
+        "label": "0~4세",
+        "total": 201,
+        "male": 114,
+        "female": 87
+      },
+      {
+        "label": "5~9세",
+        "total": 159,
+        "male": 89,
+        "female": 70
+      },
+      {
+        "label": "10~14세",
+        "total": 194,
+        "male": 99,
+        "female": 95
+      },
+      {
+        "label": "15~19세",
+        "total": 255,
+        "male": 148,
+        "female": 107
+      },
+      {
+        "label": "20~24세",
+        "total": 317,
+        "male": 145,
+        "female": 172
+      },
+      {
+        "label": "25~29세",
+        "total": 791,
+        "male": 341,
+        "female": 450
+      },
+      {
+        "label": "30~34세",
+        "total": 1301,
+        "male": 631,
+        "female": 670
+      },
+      {
+        "label": "35~39세",
+        "total": 868,
+        "male": 452,
+        "female": 416
+      },
+      {
+        "label": "40~44세",
+        "total": 722,
+        "male": 359,
+        "female": 363
+      },
+      {
+        "label": "45~49세",
+        "total": 604,
+        "male": 255,
+        "female": 349
+      },
+      {
+        "label": "50~54세",
+        "total": 728,
+        "male": 337,
+        "female": 391
+      },
+      {
+        "label": "55~59세",
+        "total": 691,
+        "male": 294,
+        "female": 397
+      },
+      {
+        "label": "60~64세",
+        "total": 664,
+        "male": 260,
+        "female": 404
+      },
+      {
+        "label": "65~69세",
+        "total": 700,
+        "male": 275,
+        "female": 425
+      },
+      {
+        "label": "70~74세",
+        "total": 396,
+        "male": 177,
+        "female": 219
+      },
+      {
+        "label": "75~79세",
+        "total": 276,
+        "male": 84,
+        "female": 192
+      },
+      {
+        "label": "80~84세",
+        "total": 269,
+        "male": 77,
+        "female": 192
+      },
+      {
+        "label": "85~89세",
+        "total": 151,
+        "male": 35,
+        "female": 116
+      },
+      {
+        "label": "90~94세",
+        "total": 79,
+        "male": 14,
+        "female": 65
+      },
+      {
+        "label": "95~99세",
+        "total": 20,
+        "male": 1,
+        "female": 19
+      },
+      {
+        "label": "100세 이상",
+        "total": 0,
+        "male": 0,
+        "female": 0
+      }
+    ],
+    "관양동": [
+      {
+        "label": "0~4세",
+        "total": 496,
+        "male": 247,
+        "female": 249
+      },
+      {
+        "label": "5~9세",
+        "total": 614,
+        "male": 310,
+        "female": 304
+      },
+      {
+        "label": "10~14세",
+        "total": 843,
+        "male": 455,
+        "female": 388
+      },
+      {
+        "label": "15~19세",
+        "total": 1181,
+        "male": 611,
+        "female": 570
+      },
+      {
+        "label": "20~24세",
+        "total": 1522,
+        "male": 808,
+        "female": 714
+      },
+      {
+        "label": "25~29세",
+        "total": 2625,
+        "male": 1427,
+        "female": 1198
+      },
+      {
+        "label": "30~34세",
+        "total": 2547,
+        "male": 1441,
+        "female": 1106
+      },
+      {
+        "label": "35~39세",
+        "total": 1808,
+        "male": 982,
+        "female": 826
+      },
+      {
+        "label": "40~44세",
+        "total": 1791,
+        "male": 975,
+        "female": 816
+      },
+      {
+        "label": "45~49세",
+        "total": 1836,
+        "male": 877,
+        "female": 959
+      },
+      {
+        "label": "50~54세",
+        "total": 2523,
+        "male": 1134,
+        "female": 1389
+      },
+      {
+        "label": "55~59세",
+        "total": 3241,
+        "male": 1496,
+        "female": 1745
+      },
+      {
+        "label": "60~64세",
+        "total": 3334,
+        "male": 1534,
+        "female": 1800
+      },
+      {
+        "label": "65~69세",
+        "total": 2938,
+        "male": 1408,
+        "female": 1530
+      },
+      {
+        "label": "70~74세",
+        "total": 1985,
+        "male": 902,
+        "female": 1083
+      },
+      {
+        "label": "75~79세",
+        "total": 1261,
+        "male": 572,
+        "female": 689
+      },
+      {
+        "label": "80~84세",
+        "total": 831,
+        "male": 311,
+        "female": 520
+      },
+      {
+        "label": "85~89세",
+        "total": 472,
+        "male": 160,
+        "female": 312
+      },
+      {
+        "label": "90~94세",
+        "total": 184,
+        "male": 41,
+        "female": 143
+      },
+      {
+        "label": "95~99세",
+        "total": 39,
+        "male": 11,
+        "female": 28
+      },
+      {
+        "label": "100세 이상",
+        "total": 5,
+        "male": 2,
+        "female": 3
+      }
+    ],
+    "인덕원동": [
+      {
+        "label": "0~4세",
+        "total": 421,
+        "male": 215,
+        "female": 206
+      },
+      {
+        "label": "5~9세",
+        "total": 425,
+        "male": 213,
+        "female": 212
+      },
+      {
+        "label": "10~14세",
+        "total": 543,
+        "male": 279,
+        "female": 264
+      },
+      {
+        "label": "15~19세",
+        "total": 609,
+        "male": 301,
+        "female": 308
+      },
+      {
+        "label": "20~24세",
+        "total": 893,
+        "male": 431,
+        "female": 462
+      },
+      {
+        "label": "25~29세",
+        "total": 1606,
+        "male": 941,
+        "female": 665
+      },
+      {
+        "label": "30~34세",
+        "total": 1714,
+        "male": 975,
+        "female": 739
+      },
+      {
+        "label": "35~39세",
+        "total": 1294,
+        "male": 708,
+        "female": 586
+      },
+      {
+        "label": "40~44세",
+        "total": 1217,
+        "male": 650,
+        "female": 567
+      },
+      {
+        "label": "45~49세",
+        "total": 1131,
+        "male": 566,
+        "female": 565
+      },
+      {
+        "label": "50~54세",
+        "total": 1523,
+        "male": 756,
+        "female": 767
+      },
+      {
+        "label": "55~59세",
+        "total": 1584,
+        "male": 802,
+        "female": 782
+      },
+      {
+        "label": "60~64세",
+        "total": 1579,
+        "male": 781,
+        "female": 798
+      },
+      {
+        "label": "65~69세",
+        "total": 1251,
+        "male": 631,
+        "female": 620
+      },
+      {
+        "label": "70~74세",
+        "total": 819,
+        "male": 379,
+        "female": 440
+      },
+      {
+        "label": "75~79세",
+        "total": 545,
+        "male": 252,
+        "female": 293
+      },
+      {
+        "label": "80~84세",
+        "total": 408,
+        "male": 173,
+        "female": 235
+      },
+      {
+        "label": "85~89세",
+        "total": 214,
+        "male": 79,
+        "female": 135
+      },
+      {
+        "label": "90~94세",
+        "total": 78,
+        "male": 22,
+        "female": 56
+      },
+      {
+        "label": "95~99세",
+        "total": 15,
+        "male": 3,
+        "female": 12
+      },
+      {
+        "label": "100세 이상",
+        "total": 1,
+        "male": 0,
+        "female": 1
+      }
+    ],
+    "부림동": [
+      {
+        "label": "0~4세",
+        "total": 934,
+        "male": 502,
+        "female": 432
+      },
+      {
+        "label": "5~9세",
+        "total": 652,
+        "male": 321,
+        "female": 331
+      },
+      {
+        "label": "10~14세",
+        "total": 1004,
+        "male": 509,
+        "female": 495
+      },
+      {
+        "label": "15~19세",
+        "total": 1059,
+        "male": 555,
+        "female": 504
+      },
+      {
+        "label": "20~24세",
+        "total": 1194,
+        "male": 577,
+        "female": 617
+      },
+      {
+        "label": "25~29세",
+        "total": 2025,
+        "male": 959,
+        "female": 1066
+      },
+      {
+        "label": "30~34세",
+        "total": 3208,
+        "male": 1596,
+        "female": 1612
+      },
+      {
+        "label": "35~39세",
+        "total": 2622,
+        "male": 1398,
+        "female": 1224
+      },
+      {
+        "label": "40~44세",
+        "total": 2186,
+        "male": 1110,
+        "female": 1076
+      },
+      {
+        "label": "45~49세",
+        "total": 1992,
+        "male": 919,
+        "female": 1073
+      },
+      {
+        "label": "50~54세",
+        "total": 2346,
+        "male": 1111,
+        "female": 1235
+      },
+      {
+        "label": "55~59세",
+        "total": 2004,
+        "male": 940,
+        "female": 1064
+      },
+      {
+        "label": "60~64세",
+        "total": 1613,
+        "male": 734,
+        "female": 879
+      },
+      {
+        "label": "65~69세",
+        "total": 1415,
+        "male": 658,
+        "female": 757
+      },
+      {
+        "label": "70~74세",
+        "total": 783,
+        "male": 388,
+        "female": 395
+      },
+      {
+        "label": "75~79세",
+        "total": 516,
+        "male": 197,
+        "female": 319
+      },
+      {
+        "label": "80~84세",
+        "total": 401,
+        "male": 136,
+        "female": 265
+      },
+      {
+        "label": "85~89세",
+        "total": 275,
+        "male": 92,
+        "female": 183
+      },
+      {
+        "label": "90~94세",
+        "total": 104,
+        "male": 22,
+        "female": 82
+      },
+      {
+        "label": "95~99세",
+        "total": 21,
+        "male": 5,
+        "female": 16
+      },
+      {
+        "label": "100세 이상",
+        "total": 1,
+        "male": 1,
+        "female": 0
+      }
+    ],
+    "평촌동": [
+      {
+        "label": "0~4세",
+        "total": 480,
+        "male": 239,
+        "female": 241
+      },
+      {
+        "label": "5~9세",
+        "total": 536,
+        "male": 283,
+        "female": 253
+      },
+      {
+        "label": "10~14세",
+        "total": 744,
+        "male": 358,
+        "female": 386
+      },
+      {
+        "label": "15~19세",
+        "total": 745,
+        "male": 373,
+        "female": 372
+      },
+      {
+        "label": "20~24세",
+        "total": 753,
+        "male": 389,
+        "female": 364
+      },
+      {
+        "label": "25~29세",
+        "total": 980,
+        "male": 512,
+        "female": 468
+      },
+      {
+        "label": "30~34세",
+        "total": 1135,
+        "male": 592,
+        "female": 543
+      },
+      {
+        "label": "35~39세",
+        "total": 988,
+        "male": 498,
+        "female": 490
+      },
+      {
+        "label": "40~44세",
+        "total": 1062,
+        "male": 526,
+        "female": 536
+      },
+      {
+        "label": "45~49세",
+        "total": 1049,
+        "male": 503,
+        "female": 546
+      },
+      {
+        "label": "50~54세",
+        "total": 1255,
+        "male": 571,
+        "female": 684
+      },
+      {
+        "label": "55~59세",
+        "total": 1536,
+        "male": 708,
+        "female": 828
+      },
+      {
+        "label": "60~64세",
+        "total": 1374,
+        "male": 719,
+        "female": 655
+      },
+      {
+        "label": "65~69세",
+        "total": 917,
+        "male": 464,
+        "female": 453
+      },
+      {
+        "label": "70~74세",
+        "total": 503,
+        "male": 242,
+        "female": 261
+      },
+      {
+        "label": "75~79세",
+        "total": 325,
+        "male": 156,
+        "female": 169
+      },
+      {
+        "label": "80~84세",
+        "total": 221,
+        "male": 88,
+        "female": 133
+      },
+      {
+        "label": "85~89세",
+        "total": 198,
+        "male": 65,
+        "female": 133
+      },
+      {
+        "label": "90~94세",
+        "total": 63,
+        "male": 19,
+        "female": 44
+      },
+      {
+        "label": "95~99세",
+        "total": 6,
+        "male": 2,
+        "female": 4
+      },
+      {
+        "label": "100세 이상",
+        "total": 2,
+        "male": 1,
+        "female": 1
+      }
+    ],
+    "평안동": [
+      {
+        "label": "0~4세",
+        "total": 710,
+        "male": 357,
+        "female": 353
+      },
+      {
+        "label": "5~9세",
+        "total": 1212,
+        "male": 617,
+        "female": 595
+      },
+      {
+        "label": "10~14세",
+        "total": 1797,
+        "male": 904,
+        "female": 893
+      },
+      {
+        "label": "15~19세",
+        "total": 1536,
+        "male": 810,
+        "female": 726
+      },
+      {
+        "label": "20~24세",
+        "total": 1047,
+        "male": 557,
+        "female": 490
+      },
+      {
+        "label": "25~29세",
+        "total": 1041,
+        "male": 527,
+        "female": 514
+      },
+      {
+        "label": "30~34세",
+        "total": 1470,
+        "male": 727,
+        "female": 743
+      },
+      {
+        "label": "35~39세",
+        "total": 1655,
+        "male": 766,
+        "female": 889
+      },
+      {
+        "label": "40~44세",
+        "total": 2176,
+        "male": 1025,
+        "female": 1151
+      },
+      {
+        "label": "45~49세",
+        "total": 2322,
+        "male": 1087,
+        "female": 1235
+      },
+      {
+        "label": "50~54세",
+        "total": 2101,
+        "male": 1075,
+        "female": 1026
+      },
+      {
+        "label": "55~59세",
+        "total": 1520,
+        "male": 772,
+        "female": 748
+      },
+      {
+        "label": "60~64세",
+        "total": 1099,
+        "male": 496,
+        "female": 603
+      },
+      {
+        "label": "65~69세",
+        "total": 1080,
+        "male": 514,
+        "female": 566
+      },
+      {
+        "label": "70~74세",
+        "total": 614,
+        "male": 327,
+        "female": 287
+      },
+      {
+        "label": "75~79세",
+        "total": 372,
+        "male": 159,
+        "female": 213
+      },
+      {
+        "label": "80~84세",
+        "total": 280,
+        "male": 105,
+        "female": 175
+      },
+      {
+        "label": "85~89세",
+        "total": 199,
+        "male": 55,
+        "female": 144
+      },
+      {
+        "label": "90~94세",
+        "total": 90,
+        "male": 16,
+        "female": 74
+      },
+      {
+        "label": "95~99세",
+        "total": 26,
+        "male": 3,
+        "female": 23
+      },
+      {
+        "label": "100세 이상",
+        "total": 4,
+        "male": 0,
+        "female": 4
+      }
+    ],
+    "귀인동": [
+      {
+        "label": "0~4세",
+        "total": 194,
+        "male": 99,
+        "female": 95
+      },
+      {
+        "label": "5~9세",
+        "total": 815,
+        "male": 441,
+        "female": 374
+      },
+      {
+        "label": "10~14세",
+        "total": 1895,
+        "male": 1021,
+        "female": 874
+      },
+      {
+        "label": "15~19세",
+        "total": 1517,
+        "male": 802,
+        "female": 715
+      },
+      {
+        "label": "20~24세",
+        "total": 850,
+        "male": 437,
+        "female": 413
+      },
+      {
+        "label": "25~29세",
+        "total": 714,
+        "male": 364,
+        "female": 350
+      },
+      {
+        "label": "30~34세",
+        "total": 463,
+        "male": 242,
+        "female": 221
+      },
+      {
+        "label": "35~39세",
+        "total": 589,
+        "male": 246,
+        "female": 343
+      },
+      {
+        "label": "40~44세",
+        "total": 1523,
+        "male": 642,
+        "female": 881
+      },
+      {
+        "label": "45~49세",
+        "total": 1990,
+        "male": 913,
+        "female": 1077
+      },
+      {
+        "label": "50~54세",
+        "total": 1739,
+        "male": 917,
+        "female": 822
+      },
+      {
+        "label": "55~59세",
+        "total": 1112,
+        "male": 579,
+        "female": 533
+      },
+      {
+        "label": "60~64세",
+        "total": 852,
+        "male": 423,
+        "female": 429
+      },
+      {
+        "label": "65~69세",
+        "total": 665,
+        "male": 327,
+        "female": 338
+      },
+      {
+        "label": "70~74세",
+        "total": 429,
+        "male": 212,
+        "female": 217
+      },
+      {
+        "label": "75~79세",
+        "total": 290,
+        "male": 125,
+        "female": 165
+      },
+      {
+        "label": "80~84세",
+        "total": 200,
+        "male": 89,
+        "female": 111
+      },
+      {
+        "label": "85~89세",
+        "total": 138,
+        "male": 50,
+        "female": 88
+      },
+      {
+        "label": "90~94세",
+        "total": 57,
+        "male": 23,
+        "female": 34
+      },
+      {
+        "label": "95~99세",
+        "total": 12,
+        "male": 3,
+        "female": 9
+      },
+      {
+        "label": "100세 이상",
+        "total": 2,
+        "male": 0,
+        "female": 2
+      }
+    ],
+    "호계1동": [
+      {
+        "label": "0~4세",
+        "total": 1497,
+        "male": 761,
+        "female": 736
+      },
+      {
+        "label": "5~9세",
+        "total": 1717,
+        "male": 849,
+        "female": 868
+      },
+      {
+        "label": "10~14세",
+        "total": 1787,
+        "male": 928,
+        "female": 859
+      },
+      {
+        "label": "15~19세",
+        "total": 1224,
+        "male": 658,
+        "female": 566
+      },
+      {
+        "label": "20~24세",
+        "total": 1019,
+        "male": 521,
+        "female": 498
+      },
+      {
+        "label": "25~29세",
+        "total": 1331,
+        "male": 637,
+        "female": 694
+      },
+      {
+        "label": "30~34세",
+        "total": 2325,
+        "male": 1106,
+        "female": 1219
+      },
+      {
+        "label": "35~39세",
+        "total": 2975,
+        "male": 1489,
+        "female": 1486
+      },
+      {
+        "label": "40~44세",
+        "total": 3057,
+        "male": 1556,
+        "female": 1501
+      },
+      {
+        "label": "45~49세",
+        "total": 2331,
+        "male": 1222,
+        "female": 1109
+      },
+      {
+        "label": "50~54세",
+        "total": 2011,
+        "male": 1014,
+        "female": 997
+      },
+      {
+        "label": "55~59세",
+        "total": 1656,
+        "male": 829,
+        "female": 827
+      },
+      {
+        "label": "60~64세",
+        "total": 1352,
+        "male": 632,
+        "female": 720
+      },
+      {
+        "label": "65~69세",
+        "total": 1160,
+        "male": 567,
+        "female": 593
+      },
+      {
+        "label": "70~74세",
+        "total": 706,
+        "male": 338,
+        "female": 368
+      },
+      {
+        "label": "75~79세",
+        "total": 373,
+        "male": 182,
+        "female": 191
+      },
+      {
+        "label": "80~84세",
+        "total": 214,
+        "male": 87,
+        "female": 127
+      },
+      {
+        "label": "85~89세",
+        "total": 119,
+        "male": 52,
+        "female": 67
+      },
+      {
+        "label": "90~94세",
+        "total": 50,
+        "male": 8,
+        "female": 42
+      },
+      {
+        "label": "95~99세",
+        "total": 10,
+        "male": 4,
+        "female": 6
+      },
+      {
+        "label": "100세 이상",
+        "total": 1,
+        "male": 0,
+        "female": 1
+      }
+    ],
+    "호계2동": [
+      {
+        "label": "0~4세",
+        "total": 1046,
+        "male": 568,
+        "female": 478
+      },
+      {
+        "label": "5~9세",
+        "total": 936,
+        "male": 452,
+        "female": 484
+      },
+      {
+        "label": "10~14세",
+        "total": 1186,
+        "male": 583,
+        "female": 603
+      },
+      {
+        "label": "15~19세",
+        "total": 1285,
+        "male": 651,
+        "female": 634
+      },
+      {
+        "label": "20~24세",
+        "total": 1355,
+        "male": 684,
+        "female": 671
+      },
+      {
+        "label": "25~29세",
+        "total": 1810,
+        "male": 888,
+        "female": 922
+      },
+      {
+        "label": "30~34세",
+        "total": 2286,
+        "male": 1137,
+        "female": 1149
+      },
+      {
+        "label": "35~39세",
+        "total": 2225,
+        "male": 1149,
+        "female": 1076
+      },
+      {
+        "label": "40~44세",
+        "total": 2064,
+        "male": 1055,
+        "female": 1009
+      },
+      {
+        "label": "45~49세",
+        "total": 2094,
+        "male": 1013,
+        "female": 1081
+      },
+      {
+        "label": "50~54세",
+        "total": 2235,
+        "male": 1044,
+        "female": 1191
+      },
+      {
+        "label": "55~59세",
+        "total": 2204,
+        "male": 1022,
+        "female": 1182
+      },
+      {
+        "label": "60~64세",
+        "total": 1981,
+        "male": 961,
+        "female": 1020
+      },
+      {
+        "label": "65~69세",
+        "total": 1855,
+        "male": 876,
+        "female": 979
+      },
+      {
+        "label": "70~74세",
+        "total": 1074,
+        "male": 527,
+        "female": 547
+      },
+      {
+        "label": "75~79세",
+        "total": 654,
+        "male": 298,
+        "female": 356
+      },
+      {
+        "label": "80~84세",
+        "total": 395,
+        "male": 162,
+        "female": 233
+      },
+      {
+        "label": "85~89세",
+        "total": 214,
+        "male": 69,
+        "female": 145
+      },
+      {
+        "label": "90~94세",
+        "total": 89,
+        "male": 23,
+        "female": 66
+      },
+      {
+        "label": "95~99세",
+        "total": 19,
+        "male": 4,
+        "female": 15
+      },
+      {
+        "label": "100세 이상",
+        "total": 2,
+        "male": 1,
+        "female": 1
+      }
+    ],
+    "호계3동": [
+      {
+        "label": "0~4세",
+        "total": 840,
+        "male": 409,
+        "female": 431
+      },
+      {
+        "label": "5~9세",
+        "total": 794,
+        "male": 412,
+        "female": 382
+      },
+      {
+        "label": "10~14세",
+        "total": 921,
+        "male": 472,
+        "female": 449
+      },
+      {
+        "label": "15~19세",
+        "total": 990,
+        "male": 501,
+        "female": 489
+      },
+      {
+        "label": "20~24세",
+        "total": 1096,
+        "male": 566,
+        "female": 530
+      },
+      {
+        "label": "25~29세",
+        "total": 1691,
+        "male": 879,
+        "female": 812
+      },
+      {
+        "label": "30~34세",
+        "total": 2013,
+        "male": 1038,
+        "female": 975
+      },
+      {
+        "label": "35~39세",
+        "total": 1891,
+        "male": 989,
+        "female": 902
+      },
+      {
+        "label": "40~44세",
+        "total": 1764,
+        "male": 936,
+        "female": 828
+      },
+      {
+        "label": "45~49세",
+        "total": 1570,
+        "male": 801,
+        "female": 769
+      },
+      {
+        "label": "50~54세",
+        "total": 1846,
+        "male": 882,
+        "female": 964
+      },
+      {
+        "label": "55~59세",
+        "total": 2171,
+        "male": 1032,
+        "female": 1139
+      },
+      {
+        "label": "60~64세",
+        "total": 2082,
+        "male": 994,
+        "female": 1088
+      },
+      {
+        "label": "65~69세",
+        "total": 1851,
+        "male": 937,
+        "female": 914
+      },
+      {
+        "label": "70~74세",
+        "total": 1089,
+        "male": 573,
+        "female": 516
+      },
+      {
+        "label": "75~79세",
+        "total": 595,
+        "male": 304,
+        "female": 291
+      },
+      {
+        "label": "80~84세",
+        "total": 328,
+        "male": 140,
+        "female": 188
+      },
+      {
+        "label": "85~89세",
+        "total": 220,
+        "male": 74,
+        "female": 146
+      },
+      {
+        "label": "90~94세",
+        "total": 83,
+        "male": 13,
+        "female": 70
+      },
+      {
+        "label": "95~99세",
+        "total": 19,
+        "male": 3,
+        "female": 16
+      },
+      {
+        "label": "100세 이상",
+        "total": 6,
+        "male": 2,
+        "female": 4
+      }
+    ],
+    "범계동": [
+      {
+        "label": "0~4세",
+        "total": 335,
+        "male": 162,
+        "female": 173
+      },
+      {
+        "label": "5~9세",
+        "total": 536,
+        "male": 294,
+        "female": 242
+      },
+      {
+        "label": "10~14세",
+        "total": 1027,
+        "male": 520,
+        "female": 507
+      },
+      {
+        "label": "15~19세",
+        "total": 963,
+        "male": 499,
+        "female": 464
+      },
+      {
+        "label": "20~24세",
+        "total": 814,
+        "male": 408,
+        "female": 406
+      },
+      {
+        "label": "25~29세",
+        "total": 919,
+        "male": 496,
+        "female": 423
+      },
+      {
+        "label": "30~34세",
+        "total": 1211,
+        "male": 579,
+        "female": 632
+      },
+      {
+        "label": "35~39세",
+        "total": 993,
+        "male": 482,
+        "female": 511
+      },
+      {
+        "label": "40~44세",
+        "total": 1058,
+        "male": 468,
+        "female": 590
+      },
+      {
+        "label": "45~49세",
+        "total": 1340,
+        "male": 604,
+        "female": 736
+      },
+      {
+        "label": "50~54세",
+        "total": 1450,
+        "male": 708,
+        "female": 742
+      },
+      {
+        "label": "55~59세",
+        "total": 1191,
+        "male": 581,
+        "female": 610
+      },
+      {
+        "label": "60~64세",
+        "total": 975,
+        "male": 453,
+        "female": 522
+      },
+      {
+        "label": "65~69세",
+        "total": 821,
+        "male": 413,
+        "female": 408
+      },
+      {
+        "label": "70~74세",
+        "total": 486,
+        "male": 233,
+        "female": 253
+      },
+      {
+        "label": "75~79세",
+        "total": 336,
+        "male": 139,
+        "female": 197
+      },
+      {
+        "label": "80~84세",
+        "total": 251,
+        "male": 109,
+        "female": 142
+      },
+      {
+        "label": "85~89세",
+        "total": 175,
+        "male": 50,
+        "female": 125
+      },
+      {
+        "label": "90~94세",
+        "total": 86,
+        "male": 21,
+        "female": 65
+      },
+      {
+        "label": "95~99세",
+        "total": 28,
+        "male": 3,
+        "female": 25
+      },
+      {
+        "label": "100세 이상",
+        "total": 0,
+        "male": 0,
+        "female": 0
+      }
+    ],
+    "신촌동": [
+      {
+        "label": "0~4세",
+        "total": 320,
+        "male": 168,
+        "female": 152
+      },
+      {
+        "label": "5~9세",
+        "total": 468,
+        "male": 236,
+        "female": 232
+      },
+      {
+        "label": "10~14세",
+        "total": 683,
+        "male": 344,
+        "female": 339
+      },
+      {
+        "label": "15~19세",
+        "total": 855,
+        "male": 419,
+        "female": 436
+      },
+      {
+        "label": "20~24세",
+        "total": 649,
+        "male": 327,
+        "female": 322
+      },
+      {
+        "label": "25~29세",
+        "total": 695,
+        "male": 363,
+        "female": 332
+      },
+      {
+        "label": "30~34세",
+        "total": 720,
+        "male": 353,
+        "female": 367
+      },
+      {
+        "label": "35~39세",
+        "total": 792,
+        "male": 397,
+        "female": 395
+      },
+      {
+        "label": "40~44세",
+        "total": 932,
+        "male": 441,
+        "female": 491
+      },
+      {
+        "label": "45~49세",
+        "total": 1008,
+        "male": 474,
+        "female": 534
+      },
+      {
+        "label": "50~54세",
+        "total": 1117,
+        "male": 522,
+        "female": 595
+      },
+      {
+        "label": "55~59세",
+        "total": 1016,
+        "male": 482,
+        "female": 534
+      },
+      {
+        "label": "60~64세",
+        "total": 941,
+        "male": 433,
+        "female": 508
+      },
+      {
+        "label": "65~69세",
+        "total": 870,
+        "male": 427,
+        "female": 443
+      },
+      {
+        "label": "70~74세",
+        "total": 501,
+        "male": 271,
+        "female": 230
+      },
+      {
+        "label": "75~79세",
+        "total": 345,
+        "male": 164,
+        "female": 181
+      },
+      {
+        "label": "80~84세",
+        "total": 157,
+        "male": 69,
+        "female": 88
+      },
+      {
+        "label": "85~89세",
+        "total": 98,
+        "male": 35,
+        "female": 63
+      },
+      {
+        "label": "90~94세",
+        "total": 46,
+        "male": 8,
+        "female": 38
+      },
+      {
+        "label": "95~99세",
+        "total": 17,
+        "male": 2,
+        "female": 15
+      },
+      {
+        "label": "100세 이상",
+        "total": 2,
+        "male": 0,
+        "female": 2
+      }
+    ],
+    "갈산동": [
+      {
+        "label": "0~4세",
+        "total": 118,
+        "male": 61,
+        "female": 57
+      },
+      {
+        "label": "5~9세",
+        "total": 348,
+        "male": 169,
+        "female": 179
+      },
+      {
+        "label": "10~14세",
+        "total": 786,
+        "male": 341,
+        "female": 445
+      },
+      {
+        "label": "15~19세",
+        "total": 725,
+        "male": 357,
+        "female": 368
+      },
+      {
+        "label": "20~24세",
+        "total": 535,
+        "male": 283,
+        "female": 252
+      },
+      {
+        "label": "25~29세",
+        "total": 627,
+        "male": 339,
+        "female": 288
+      },
+      {
+        "label": "30~34세",
+        "total": 441,
+        "male": 252,
+        "female": 189
+      },
+      {
+        "label": "35~39세",
+        "total": 453,
+        "male": 215,
+        "female": 238
+      },
+      {
+        "label": "40~44세",
+        "total": 720,
+        "male": 330,
+        "female": 390
+      },
+      {
+        "label": "45~49세",
+        "total": 914,
+        "male": 413,
+        "female": 501
+      },
+      {
+        "label": "50~54세",
+        "total": 949,
+        "male": 499,
+        "female": 450
+      },
+      {
+        "label": "55~59세",
+        "total": 862,
+        "male": 418,
+        "female": 444
+      },
+      {
+        "label": "60~64세",
+        "total": 804,
+        "male": 391,
+        "female": 413
+      },
+      {
+        "label": "65~69세",
+        "total": 777,
+        "male": 368,
+        "female": 409
+      },
+      {
+        "label": "70~74세",
+        "total": 483,
+        "male": 241,
+        "female": 242
+      },
+      {
+        "label": "75~79세",
+        "total": 330,
+        "male": 169,
+        "female": 161
+      },
+      {
+        "label": "80~84세",
+        "total": 206,
+        "male": 90,
+        "female": 116
+      },
+      {
+        "label": "85~89세",
+        "total": 128,
+        "male": 50,
+        "female": 78
+      },
+      {
+        "label": "90~94세",
+        "total": 69,
+        "male": 19,
+        "female": 50
+      },
+      {
+        "label": "95~99세",
+        "total": 19,
+        "male": 2,
+        "female": 17
+      },
+      {
+        "label": "100세 이상",
+        "total": 1,
+        "male": 0,
+        "female": 1
+      }
+    ]
+  },
+  "foreigner_age": [
+    {
+      "label": "0~4세",
+      "total": 124,
+      "male": 65,
+      "female": 59
+    },
+    {
+      "label": "5~9세",
+      "total": 204,
+      "male": 105,
+      "female": 99
+    },
+    {
+      "label": "10~14세",
+      "total": 107,
+      "male": 56,
+      "female": 51
+    },
+    {
+      "label": "15~19세",
+      "total": 215,
+      "male": 96,
+      "female": 119
+    },
+    {
+      "label": "20~24세",
+      "total": 802,
+      "male": 402,
+      "female": 400
+    },
+    {
+      "label": "25~29세",
+      "total": 821,
+      "male": 392,
+      "female": 429
+    },
+    {
+      "label": "30~34세",
+      "total": 813,
+      "male": 388,
+      "female": 425
+    },
+    {
+      "label": "35~39세",
+      "total": 899,
+      "male": 444,
+      "female": 455
+    },
+    {
+      "label": "40~44세",
+      "total": 709,
+      "male": 369,
+      "female": 340
+    },
+    {
+      "label": "45~49세",
+      "total": 533,
+      "male": 263,
+      "female": 270
+    },
+    {
+      "label": "50~54세",
+      "total": 583,
+      "male": 276,
+      "female": 307
+    },
+    {
+      "label": "55~59세",
+      "total": 663,
+      "male": 326,
+      "female": 337
+    },
+    {
+      "label": "60~64세",
+      "total": 457,
+      "male": 222,
+      "female": 235
+    },
+    {
+      "label": "65~69세",
+      "total": 245,
+      "male": 128,
+      "female": 117
+    },
+    {
+      "label": "70~74세",
+      "total": 98,
+      "male": 51,
+      "female": 47
+    },
+    {
+      "label": "75~79세",
+      "total": 32,
+      "male": 13,
+      "female": 19
+    },
+    {
+      "label": "80세 이상",
+      "total": 14,
+      "male": 4,
+      "female": 10
+    }
+  ],
+  "city_industry_sections": [
+    {
+      "section": "**",
+      "name": "TT 전체산업",
+      "establishments": 66906,
+      "workers": 284815
+    },
+    {
+      "section": "A",
+      "name": "A.농업, 임업 및 어업(01~03)",
+      "establishments": 2,
+      "workers": null
+    },
+    {
+      "section": "B",
+      "name": "B.광 업(05~08)",
+      "establishments": 3,
+      "workers": 39
+    },
+    {
+      "section": "C",
+      "name": "C.제 조 업(10~34)",
+      "establishments": 4484,
+      "workers": 34241
+    },
+    {
+      "section": "D",
+      "name": "D.전기, 가스, 증기 및 공기 조절 공급업(35)",
+      "establishments": 62,
+      "workers": 351
+    },
+    {
+      "section": "E",
+      "name": "E.수도, 하수 및 폐기물 처리, 원료 재생업(36~39)",
+      "establishments": 70,
+      "workers": 1184
+    },
+    {
+      "section": "F",
+      "name": "F.건 설 업(41~42)",
+      "establishments": 3638,
+      "workers": 22149
+    },
+    {
+      "section": "G",
+      "name": "G.도매 및 소매업(45~47)",
+      "establishments": 19471,
+      "workers": 43354
+    },
+    {
+      "section": "H",
+      "name": "H.운수 및 창고업(49~52)",
+      "establishments": 7432,
+      "workers": 14464
+    },
+    {
+      "section": "I",
+      "name": "I.숙박 및 음식점업(55~56)",
+      "establishments": 7391,
+      "workers": 21819
+    },
+    {
+      "section": "J",
+      "name": "J.정보통신업(58~63)",
+      "establishments": 2471,
+      "workers": 12699
+    },
+    {
+      "section": "K",
+      "name": "K.금융 및 보험업(64~66)",
+      "establishments": 692,
+      "workers": 7854
+    },
+    {
+      "section": "L",
+      "name": "L.부동산업(68)",
+      "establishments": 3256,
+      "workers": 8343
+    },
+    {
+      "section": "M",
+      "name": "M.전문, 과학 및 기술 서비스업(70~73)",
+      "establishments": 4265,
+      "workers": 31920
+    },
+    {
+      "section": "N",
+      "name": "N.사업시설 관리, 사업 지원 및 임대 서비스업(74~76)",
+      "establishments": 1464,
+      "workers": 21458
+    },
+    {
+      "section": "O",
+      "name": "O.공공 행정, 국방 및 사회보장 행정(84)",
+      "establishments": 76,
+      "workers": 5661
+    },
+    {
+      "section": "P",
+      "name": "P.교육 서비스업(85)",
+      "establishments": 3381,
+      "workers": 20147
+    },
+    {
+      "section": "Q",
+      "name": "Q.보건업 및 사회복지 서비스업(86~87)",
+      "establishments": 1809,
+      "workers": 24635
+    },
+    {
+      "section": "R",
+      "name": "R.예술, 스포츠 및 여가관련 서비스업(90~91)",
+      "establishments": 1635,
+      "workers": 4403
+    },
+    {
+      "section": "S",
+      "name": "S.협회 및 단체, 수리 및 기타 개인 서비스업(94~96)",
+      "establishments": 5304,
+      "workers": 10091
+    }
+  ],
+  "city_industry_top_mid": [
+    {
+      "section": "G",
+      "mid": "47",
+      "name": "47.소매업; 자동차 제외",
+      "establishments": 12924,
+      "workers": 22849
+    },
+    {
+      "section": "I",
+      "mid": "56",
+      "name": "56.음식점 및 주점업",
+      "establishments": 7173,
+      "workers": 21234
+    },
+    {
+      "section": "P",
+      "mid": "85",
+      "name": "85.교육 서비스업",
+      "establishments": 3381,
+      "workers": 20147
+    },
+    {
+      "section": "G",
+      "mid": "46",
+      "name": "46.도매 및 상품 중개업",
+      "establishments": 6224,
+      "workers": 19067
+    },
+    {
+      "section": "F",
+      "mid": "42",
+      "name": "42.전문직별 공사업",
+      "establishments": 3283,
+      "workers": 17469
+    },
+    {
+      "section": "M",
+      "mid": "72",
+      "name": "72.건축 기술, 엔지니어링 및 기타 과학기술 서비스업",
+      "establishments": 1519,
+      "workers": 16599
+    },
+    {
+      "section": "N",
+      "mid": "75",
+      "name": "75.사업 지원 서비스업",
+      "establishments": 681,
+      "workers": 14322
+    },
+    {
+      "section": "Q",
+      "mid": "87",
+      "name": "87.사회복지 서비스업",
+      "establishments": 845,
+      "workers": 13222
+    },
+    {
+      "section": "H",
+      "mid": "49",
+      "name": "49.육상 운송 및 파이프라인 운송업",
+      "establishments": 7098,
+      "workers": 12814
+    },
+    {
+      "section": "Q",
+      "mid": "86",
+      "name": "86.보건업",
+      "establishments": 964,
+      "workers": 11413
+    },
+    {
+      "section": "M",
+      "mid": "71",
+      "name": "71.전문 서비스업",
+      "establishments": 1690,
+      "workers": 9655
+    },
+    {
+      "section": "L",
+      "mid": "68",
+      "name": "68.부동산업",
+      "establishments": 3256,
+      "workers": 8343
+    },
+    {
+      "section": "J",
+      "mid": "58",
+      "name": "58.출판업",
+      "establishments": 1362,
+      "workers": 7324
+    },
+    {
+      "section": "C",
+      "mid": "26",
+      "name": "26.전자 부품, 컴퓨터, 영상, 음향 및 통신장비 제조업",
+      "establishments": 745,
+      "workers": 6509
+    },
+    {
+      "section": "N",
+      "mid": "74",
+      "name": "74.사업시설 관리 및 조경 서비스업",
+      "establishments": 484,
+      "workers": 6165
+    }
+  ]
+}
