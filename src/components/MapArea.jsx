@@ -103,6 +103,8 @@ export default function MapArea({
   const [zoom, setZoom] = useState(DEFAULT_ZOOM);
   const [guFilter, setGuFilter] = useState("전체");
   const [dongQuery, setDongQuery] = useState("");
+  /** 배포 빌드 등에서 SVG :hover + filter 조합이 안 먹는 경우 대비 — 클래스로 호버 상태 고정 */
+  const [hoveredDong, setHoveredDong] = useState(null);
   const METRICS = [
     {
       key: "targetGenderAge",
@@ -165,13 +167,14 @@ export default function MapArea({
           const t = intensities[d.dong] ?? 0;
           const fill = heatColor(t);
           const isSelected = d.dong === selectedDong;
+          const isHovered = hoveredDong === d.dong;
           const isFilteredOut = guFilter !== "전체" && d.gu !== guFilter;
           return (
             <Polygon
               key={d.dong}
               positions={d.polygon}
               pathOptions={{
-                className: `dong-polygon${isSelected ? " dong-polygon--selected" : ""}`,
+                className: `dong-polygon${isSelected ? " dong-polygon--selected" : ""}${isHovered ? " dong-polygon--hover" : ""}`,
                 color: isSelected ? "#ffffff" : "#450a0a",
                 weight: isSelected ? 2.5 : 0.6,
                 opacity: isFilteredOut ? 0.18 : isSelected ? 1 : 0.55,
@@ -180,7 +183,12 @@ export default function MapArea({
               }}
               eventHandlers={{
                 click: () => onAreaClick?.(d.dong),
-                mouseover: (e) => e.target.bringToFront(),
+                mouseover: (e) => {
+                  e.target.bringToFront();
+                  setHoveredDong(d.dong);
+                },
+                mouseout: () =>
+                  setHoveredDong((cur) => (cur === d.dong ? null : cur)),
               }}
             >
               <Tooltip

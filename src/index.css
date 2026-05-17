@@ -49,11 +49,13 @@
       stroke 220ms ease;
     filter: drop-shadow(0 0 0 transparent);
   }
-  .leaflet-interactive.dong-polygon:hover {
-    stroke: #ffffff;
-    stroke-width: 2.4px;
-    stroke-opacity: 1;
-    fill-opacity: 0.92;
+  /* 클래스 호버(JS)와 :hover 병행 — 프로덕션/브라우저에서 SVG 의사클래스만 불안정할 때 대비 */
+  .leaflet-interactive.dong-polygon:hover,
+  .leaflet-interactive.dong-polygon.dong-polygon--hover {
+    stroke: #ffffff !important;
+    stroke-width: 2.4px !important;
+    stroke-opacity: 1 !important;
+    fill-opacity: 0.92 !important;
     filter: drop-shadow(0 6px 14px rgba(0, 0, 0, 0.55))
       drop-shadow(0 0 8px rgba(239, 68, 68, 0.45));
   }
