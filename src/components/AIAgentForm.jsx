@@ -38,9 +38,6 @@ const AGE_OPTIONS = [
 ]
 const GENDER_OPTIONS = ['여성', '남성']
 
-const BUDGET_OPTIONS = ['₩ 8천만', '₩ 1.2억', '₩ 1.5억', '₩ 2억', '₩ 3억+']
-const SIZE_OPTIONS = ['10평', '15평', '20평', '30평', '40평+']
-
 export default function AIAgentForm({
   selectedDong = '안양1동',
   onSelectDong,
@@ -171,32 +168,24 @@ export default function AIAgentForm({
 
           <FormField label="예산 / 평수">
             <div className="grid grid-cols-2 gap-2">
-              <select
+              <input
+                type="text"
                 value={form.budget}
                 onChange={(e) =>
                   setForm((prev) => ({ ...prev, budget: e.target.value }))
                 }
-                className="rounded-lg border border-white/10 bg-slate-800/60 px-3 py-2 text-sm text-white outline-none"
-              >
-                {BUDGET_OPTIONS.map((opt) => (
-                  <option key={opt} value={opt} className="bg-slate-900">
-                    {opt}
-                  </option>
-                ))}
-              </select>
-              <select
+                placeholder="예: ₩ 1.2억"
+                className="rounded-lg border border-white/10 bg-slate-800/60 px-3 py-2 text-sm text-white outline-none placeholder:text-slate-500 focus:border-indigo-400"
+              />
+              <input
+                type="text"
                 value={form.size}
                 onChange={(e) =>
                   setForm((prev) => ({ ...prev, size: e.target.value }))
                 }
-                className="rounded-lg border border-white/10 bg-slate-800/60 px-3 py-2 text-sm text-white outline-none"
-              >
-                {SIZE_OPTIONS.map((opt) => (
-                  <option key={opt} value={opt} className="bg-slate-900">
-                    {opt}
-                  </option>
-                ))}
-              </select>
+                placeholder="예: 15평"
+                className="rounded-lg border border-white/10 bg-slate-800/60 px-3 py-2 text-sm text-white outline-none placeholder:text-slate-500 focus:border-indigo-400"
+              />
             </div>
           </FormField>
         </div>
