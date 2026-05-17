@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { Fragment, useEffect, useMemo, useState } from "react";
 import {
   MapContainer,
   TileLayer,
@@ -103,7 +103,7 @@ export default function MapArea({
   const [zoom, setZoom] = useState(DEFAULT_ZOOM);
   const [guFilter, setGuFilter] = useState("전체");
   const [dongQuery, setDongQuery] = useState("");
-  /** 배포 빌드 등에서 SVG :hover + filter 조합이 안 먹는 경우 대비 — 클래스로 호버 상태 고정 */
+  /** 호버 시각 효과는 Leaflet pathOptions로 처리(CSS만으로는 Leaflet이 SVG 속성을 덮어씀) */
   const [hoveredDong, setHoveredDong] = useState(null);
   const METRICS = [
     {
@@ -169,57 +169,90 @@ export default function MapArea({
           const isSelected = d.dong === selectedDong;
           const isHovered = hoveredDong === d.dong;
           const isFilteredOut = guFilter !== "전체" && d.gu !== guFilter;
+          const dimmed = isFilteredOut && !isHovered;
+
+          let weight = 0.6;
+          let color = "#450a0a";
+          let opacity = dimmed ? 0.18 : 0.55;
+          let fillOpacity = dimmed ? 0.08 : 0.6;
+
+          if (isSelected) {
+            weight = 2.5;
+            color = "#ffffff";
+            opacity = dimmed ? 0.28 : 1;
+            fillOpacity = dimmed ? 0.12 : 0.85;
+          }
+          if (isHovered) {
+            weight = isSelected ? 3.2 : 3;
+            color = "#ffffff";
+            opacity = dimmed ? 0.42 : 1;
+            fillOpacity = dimmed ? 0.22 : isSelected ? 0.93 : 0.92;
+          }
+
           return (
-            <Polygon
-              key={d.dong}
-              positions={d.polygon}
-              pathOptions={{
-                className: `dong-polygon${isSelected ? " dong-polygon--selected" : ""}${isHovered ? " dong-polygon--hover" : ""}`,
-                color: isSelected ? "#ffffff" : "#450a0a",
-                weight: isSelected ? 2.5 : 0.6,
-                opacity: isFilteredOut ? 0.18 : isSelected ? 1 : 0.55,
-                fillColor: fill,
-                fillOpacity: isFilteredOut ? 0.08 : isSelected ? 0.85 : 0.6,
-              }}
-              eventHandlers={{
-                click: () => onAreaClick?.(d.dong),
-                mouseover: (e) => {
-                  e.target.bringToFront();
-                  setHoveredDong(d.dong);
-                },
-                mouseout: () =>
-                  setHoveredDong((cur) => (cur === d.dong ? null : cur)),
-              }}
-            >
-              <Tooltip
-                direction="top"
-                offset={[0, -8]}
-                opacity={1}
-                sticky
-                className="!border-0"
+            <Fragment key={d.dong}>
+              {isHovered ? (
+                <Polygon
+                  positions={d.polygon}
+                  pathOptions={{
+                    interactive: false,
+                    bubblingMouseEvents: false,
+                    color: "#fb7185",
+                    weight: 14,
+                    opacity: 0.52,
+                    fill: false,
+                    lineJoin: "round",
+                    lineCap: "round",
+                  }}
+                />
+              ) : null}
+              <Polygon
+                positions={d.polygon}
+                pathOptions={{
+                  className: `dong-polygon${isSelected ? " dong-polygon--selected" : ""}`,
+                  color,
+                  weight,
+                  opacity,
+                  fillColor: fill,
+                  fillOpacity,
+                }}
+                eventHandlers={{
+                  click: () => onAreaClick?.(d.dong),
+                  mouseover: () => setHoveredDong(d.dong),
+                  mouseout: () =>
+                    setHoveredDong((cur) => (cur === d.dong ? null : cur)),
+                }}
               >
-                <div className="text-xs">
-                  <div className="font-semibold text-red-700">{d.dong}</div>
-                  <div className="text-slate-700">
-                    {metricInfo.label}{" "}
-                    <b>
-                      {formatValue(
-                        metric,
-                        metricValue(d, metric, targetAge, targetGender),
-                      )}
-                      {metricInfo.unit}
-                    </b>
+                <Tooltip
+                  direction="top"
+                  offset={[0, -8]}
+                  opacity={1}
+                  sticky
+                  className="!border-0"
+                >
+                  <div className="text-xs">
+                    <div className="font-semibold text-red-700">{d.dong}</div>
+                    <div className="text-slate-700">
+                      {metricInfo.label}{" "}
+                      <b>
+                        {formatValue(
+                          metric,
+                          metricValue(d, metric, targetAge, targetGender),
+                        )}
+                        {metricInfo.unit}
+                      </b>
+                    </div>
+                    <div className="text-[10px] text-slate-500">
+                      인구 {d.population.total.toLocaleString("ko-KR")}명 · 세대{" "}
+                      {d.population.households.toLocaleString("ko-KR")}
+                    </div>
+                    <div className="mt-0.5 text-[10px] text-red-500">
+                      클릭하여 상권 리포트 보기
+                    </div>
                   </div>
-                  <div className="text-[10px] text-slate-500">
-                    인구 {d.population.total.toLocaleString("ko-KR")}명 · 세대{" "}
-                    {d.population.households.toLocaleString("ko-KR")}
-                  </div>
-                  <div className="mt-0.5 text-[10px] text-red-500">
-                    클릭하여 상권 리포트 보기
-                  </div>
-                </div>
-              </Tooltip>
-            </Polygon>
+                </Tooltip>
+              </Polygon>
+            </Fragment>
           );
         })}
 
