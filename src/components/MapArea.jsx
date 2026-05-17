@@ -1,4 +1,4 @@
-import { Fragment, useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import {
   MapContainer,
   TileLayer,
@@ -13,6 +13,9 @@ const MIN_ZOOM = 11;
 const MAX_ZOOM = 16;
 const DEFAULT_ZOOM = 12.5;
 const ZOOM_STEP = 0.25;
+
+/** 테두리 근처에서 SVG가 짧게 mouseout을 내줄 때 호버가 깜박이지 않게 지연 해제 */
+const HOVER_CLEAR_MS = 180;
 
 // 단조 함수로 0–1 값을 빨강 그라데이션으로 변환 (Yellow → Orange → Red)
 function heatColor(t) {
@@ -103,8 +106,36 @@ export default function MapArea({
   const [zoom, setZoom] = useState(DEFAULT_ZOOM);
   const [guFilter, setGuFilter] = useState("전체");
   const [dongQuery, setDongQuery] = useState("");
-  /** 호버 시각 효과는 Leaflet pathOptions로 처리(CSS만으로는 Leaflet이 SVG 속성을 덮어씀) */
+  /** 호버 스타일은 Leaflet pathOptions로 적용 (CSS는 Leaflet이 SVG를 덮어씀) */
   const [hoveredDong, setHoveredDong] = useState(null);
+  const hoverClearTimerRef = useRef(null);
+
+  useEffect(
+    () => () => {
+      if (hoverClearTimerRef.current != null) {
+        clearTimeout(hoverClearTimerRef.current);
+      }
+    },
+    [],
+  );
+
+  const pinHover = (dong) => {
+    if (hoverClearTimerRef.current != null) {
+      clearTimeout(hoverClearTimerRef.current);
+      hoverClearTimerRef.current = null;
+    }
+    setHoveredDong(dong);
+  };
+
+  const releaseHoverLater = (dong) => {
+    if (hoverClearTimerRef.current != null) {
+      clearTimeout(hoverClearTimerRef.current);
+    }
+    hoverClearTimerRef.current = setTimeout(() => {
+      hoverClearTimerRef.current = null;
+      setHoveredDong((cur) => (cur === dong ? null : cur));
+    }, HOVER_CLEAR_MS);
+  };
   const METRICS = [
     {
       key: "targetGenderAge",
@@ -183,76 +214,69 @@ export default function MapArea({
             fillOpacity = dimmed ? 0.12 : 0.85;
           }
           if (isHovered) {
-            weight = isSelected ? 3.2 : 3;
-            color = "#ffffff";
-            opacity = dimmed ? 0.42 : 1;
-            fillOpacity = dimmed ? 0.22 : isSelected ? 0.93 : 0.92;
+            // 과한 두께·네온색 대신 얇은 라이트 테두리 + 살짝만 채우기 진하게
+            if (isSelected) {
+              weight = 2.85;
+              color = "#fefce8";
+              opacity = dimmed ? 0.38 : 1;
+              fillOpacity = dimmed ? 0.18 : 0.9;
+            } else {
+              weight = 2;
+              color = "#e2e8f0";
+              opacity = dimmed ? 0.38 : 0.95;
+              fillOpacity = dimmed ? 0.14 : 0.72;
+            }
           }
 
           return (
-            <Fragment key={d.dong}>
-              {isHovered ? (
-                <Polygon
-                  positions={d.polygon}
-                  pathOptions={{
-                    interactive: false,
-                    bubblingMouseEvents: false,
-                    color: "#fb7185",
-                    weight: 14,
-                    opacity: 0.52,
-                    fill: false,
-                    lineJoin: "round",
-                    lineCap: "round",
-                  }}
-                />
-              ) : null}
-              <Polygon
-                positions={d.polygon}
-                pathOptions={{
-                  className: `dong-polygon${isSelected ? " dong-polygon--selected" : ""}`,
-                  color,
-                  weight,
-                  opacity,
-                  fillColor: fill,
-                  fillOpacity,
-                }}
-                eventHandlers={{
-                  click: () => onAreaClick?.(d.dong),
-                  mouseover: () => setHoveredDong(d.dong),
-                  mouseout: () =>
-                    setHoveredDong((cur) => (cur === d.dong ? null : cur)),
-                }}
+            <Polygon
+              key={d.dong}
+              positions={d.polygon}
+              pathOptions={{
+                className: `dong-polygon${isSelected ? " dong-polygon--selected" : ""}`,
+                color,
+                weight,
+                opacity,
+                fillColor: fill,
+                fillOpacity,
+                lineJoin: "round",
+                lineCap: "round",
+              }}
+              eventHandlers={{
+                click: () => onAreaClick?.(d.dong),
+                mouseover: () => pinHover(d.dong),
+                mouseout: () => releaseHoverLater(d.dong),
+              }}
+            >
+              <Tooltip
+                direction="top"
+                offset={[0, -8]}
+                opacity={1}
+                sticky
+                className="!border-0"
               >
-                <Tooltip
-                  direction="top"
-                  offset={[0, -8]}
-                  opacity={1}
-                  sticky
-                  className="!border-0"
-                >
-                  <div className="text-xs">
-                    <div className="font-semibold text-red-700">{d.dong}</div>
-                    <div className="text-slate-700">
-                      {metricInfo.label}{" "}
-                      <b>
-                        {formatValue(
-                          metric,
-                          metricValue(d, metric, targetAge, targetGender),
-                        )}
-                        {metricInfo.unit}
-                      </b>
-                    </div>
-                    <div className="text-[10px] text-slate-500">
-                      인구 {d.population.total.toLocaleString("ko-KR")}명 · 세대{" "}
-                      {d.population.households.toLocaleString("ko-KR")}
-                    </div>
-                    <div className="mt-0.5 text-[10px] text-red-500">
-                      클릭하여 상권 리포트 보기
-                    </div>
+                <div className="text-xs">
+                  <div className="font-semibold text-red-700">{d.dong}</div>
+                  <div className="text-slate-700">
+                    {metricInfo.label}{" "}
+                    <b>
+                      {formatValue(
+                        metric,
+                        metricValue(d, metric, targetAge, targetGender),
+                      )}
+                      {metricInfo.unit}
+                    </b>
                   </div>
-                </Tooltip>
-              </Polygon>
-            </Fragment>
+                  <div className="text-[10px] text-slate-500">
+                    인구 {d.population.total.toLocaleString("ko-KR")}명 · 세대{" "}
+                    {d.population.households.toLocaleString("ko-KR")}
+                  </div>
+                  <div className="mt-0.5 text-[10px] text-red-500">
+                    클릭하여 상권 리포트 보기
+                  </div>
+                </div>
+              </Tooltip>
+            </Polygon>
           );
         })}
 
