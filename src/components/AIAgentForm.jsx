@@ -244,7 +244,7 @@ export default function AIAgentForm({
             {gu}는 평균 통근 거리가 길고({commute.평균소요분}분),{' '}
             서울 통근 비중이 <b className="text-orange-300">{commute.서울}%</b>로
             평일 출퇴근형 상권 특성이 강합니다. {targetAge} {targetGender}를 타겟으로 할 때{' '}
-            <b className="text-white">{copy.strategySlogan}</b> 전략이 ROI가 가장 높게 예측됩니다.
+            <b className="text-white">{copy.strategySlogan}</b> 형태의 캠페인 반응이 가장 높게 예측됩니다.
           </p>
           <ul className="mt-3 space-y-1.5 text-[12px] text-slate-300">
             {copy.strategies.map((s) => (
@@ -294,7 +294,7 @@ export default function AIAgentForm({
           </button>
         </div>
         <p className="mt-2 text-center text-[10px] text-slate-500">
-          Powered by Ventura GPT · 데이터: 안양시 통계 (2024~2025)
+          데모 생성 카피 · 데이터 출처: 안양시 통계·사회조사 (2024~2025)
         </p>
       </div>
     </aside>
@@ -402,8 +402,8 @@ function buildCopy(d, gu, commute, form) {
   ]
 
   const strategySlogan = high20s
-    ? "'퇴근길 디저트 세트(₩6,900)' 시간대 한정 번들"
-    : "'아침 출근 커피 정기권(월 ₩39,000)' 구독형 모델"
+    ? "'퇴근길 디저트 세트(저녁 한정 번들)'"
+    : "'평일 아침 커피 + 샌드위치 페어링(출근 시간대)'"
 
   const strategies = high20s
     ? [

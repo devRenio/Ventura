@@ -1,16 +1,6 @@
 import { useState } from "react";
 import L from "leaflet";
-import {
-  MapPinned,
-  Sparkles,
-  Bell,
-  Lock,
-  Crown,
-  X,
-  Check,
-  Database,
-  ChevronDown,
-} from "lucide-react";
+import { MapPinned, Sparkles, ChevronDown } from "lucide-react";
 import MapArea from "./components/MapArea";
 import Dashboard from "./components/Dashboard";
 import AIAgentForm from "./components/AIAgentForm";
@@ -28,7 +18,6 @@ L.Icon.Default.mergeOptions({
 export default function App() {
   const [selectedDong, setSelectedDong] = useState("안양1동");
   const [dashboardOpen, setDashboardOpen] = useState(false);
-  const [paywallOpen, setPaywallOpen] = useState(false);
   const [metric, setMetric] = useState("targetGenderAge");
   const [targetAge, setTargetAge] = useState("20대");
   const [targetGender, setTargetGender] = useState("여성");
@@ -57,26 +46,6 @@ export default function App() {
             </p>
           </div>
 
-          <nav className="ml-6 hidden items-center gap-1 text-xs md:flex">
-            {[
-              { label: "지도 분석", active: true },
-              { label: "리포트" },
-              { label: "저장한 상권" },
-              { label: "커뮤니티" },
-            ].map((m) => (
-              <button
-                key={m.label}
-                className={[
-                  "rounded-md px-3 py-1.5 transition",
-                  m.active
-                    ? "bg-white/10 text-white"
-                    : "text-slate-400 hover:bg-white/5 hover:text-slate-200",
-                ].join(" ")}
-              >
-                {m.label}
-              </button>
-            ))}
-          </nav>
         </div>
 
         <div className="flex items-center gap-2">
@@ -98,19 +67,6 @@ export default function App() {
             <Sparkles size={13} className="text-amber-300" />
             {selectedDong} 리포트 열기
           </button>
-          <button
-            onClick={() => setPaywallOpen(true)}
-            className="flex items-center gap-1.5 rounded-lg bg-gradient-to-r from-red-500 to-orange-500 px-3 py-1.5 text-xs font-semibold text-white shadow-md shadow-red-500/30 transition hover:brightness-110"
-          >
-            <Lock size={12} /> 고급 데이터 보기
-          </button>
-          <button className="relative rounded-lg p-2 text-slate-300 hover:bg-white/5">
-            <Bell size={16} />
-            <span className="absolute right-1.5 top-1.5 h-1.5 w-1.5 rounded-full bg-red-500" />
-          </button>
-          <div className="h-8 w-8 rounded-full bg-gradient-to-br from-indigo-400 to-purple-500 text-center text-xs font-bold leading-8 text-white">
-            EH
-          </div>
         </div>
       </header>
 
@@ -129,7 +85,6 @@ export default function App() {
             open={dashboardOpen}
             dongName={selectedDong}
             onClose={() => setDashboardOpen(false)}
-            onOpenPaywall={() => setPaywallOpen(true)}
             targetAge={targetAge}
             targetGender={targetGender}
           />
@@ -145,7 +100,6 @@ export default function App() {
         />
       </main>
 
-      {paywallOpen && <PaywallModal onClose={() => setPaywallOpen(false)} />}
     </div>
   );
 }
@@ -220,87 +174,6 @@ function DongGroup({ title, items, selected, onSelect }) {
             </span>
           </button>
         ))}
-      </div>
-    </div>
-  );
-}
-
-// ------------------------------------------------------------------
-// PaywallModal: 고급 데이터 결제 유도 (UI 전용)
-// ------------------------------------------------------------------
-function PaywallModal({ onClose }) {
-  return (
-    <div className="fixed inset-0 z-[900] flex items-center justify-center p-4">
-      <div
-        className="absolute inset-0 bg-slate-950/70 backdrop-blur-sm"
-        onClick={onClose}
-      />
-      <div className="relative z-10 w-full max-w-lg animate-fadeIn overflow-hidden rounded-2xl border border-white/10 bg-slate-900/95 shadow-2xl">
-        <div className="relative h-28 bg-gradient-to-br from-amber-400 via-red-500 to-purple-600">
-          <button
-            onClick={onClose}
-            className="absolute right-3 top-3 rounded-full bg-black/30 p-1.5 text-white hover:bg-black/50"
-          >
-            <X size={16} />
-          </button>
-          <div className="absolute -bottom-7 left-6 flex h-14 w-14 items-center justify-center rounded-2xl border-4 border-slate-900 bg-gradient-to-br from-amber-400 to-orange-500 shadow-lg">
-            <Crown size={24} className="text-white" />
-          </div>
-        </div>
-
-        <div className="px-6 pb-6 pt-10">
-          <div className="text-[11px] font-semibold uppercase tracking-widest text-amber-300">
-            Ventura PRO
-          </div>
-          <h2 className="mt-1 text-2xl font-bold text-white">
-            고급 상권 데이터 전체 열람
-          </h2>
-          <p className="mt-1 text-sm text-slate-400">
-            카드사 매출, 통신사 유동인구, 임대 시세까지 PRO 플랜에서 모두
-            확인하세요.
-          </p>
-
-          <ul className="mt-5 space-y-2 text-sm">
-            {[
-              "실시간 통신사 기반 유동인구 (5분 단위)",
-              "카드사 결제 데이터 · 매출 추정치",
-              "동별·시간대별 임대료 히트맵",
-              "AI 창업 리스크 시뮬레이션 무제한",
-              "리포트 PDF 다운로드 (워터마크 제거)",
-            ].map((t) => (
-              <li key={t} className="flex items-start gap-2 text-slate-200">
-                <Check size={16} className="mt-0.5 shrink-0 text-emerald-400" />
-                {t}
-              </li>
-            ))}
-          </ul>
-
-          <div className="mt-5 flex items-end justify-between rounded-xl border border-amber-400/30 bg-amber-400/5 px-4 py-3">
-            <div>
-              <div className="text-[11px] text-amber-300">월간 구독</div>
-              <div className="text-2xl font-bold text-white">
-                ₩ 39,000
-                <span className="text-sm font-normal text-slate-400">/월</span>
-              </div>
-              <div className="text-[11px] text-slate-400">
-                첫 7일 무료 · 언제든 해지
-              </div>
-            </div>
-            <Database size={36} className="text-amber-300/40" />
-          </div>
-
-          <div className="mt-5 flex gap-2">
-            <button
-              onClick={onClose}
-              className="flex-1 rounded-lg border border-white/10 px-4 py-2.5 text-sm text-slate-300 hover:bg-white/5"
-            >
-              나중에
-            </button>
-            <button className="flex-[1.5] rounded-lg bg-gradient-to-r from-amber-400 via-red-500 to-purple-600 px-4 py-2.5 text-sm font-semibold text-white shadow-lg transition hover:brightness-110">
-              7일 무료로 시작하기 →
-            </button>
-          </div>
-        </div>
       </div>
     </div>
   );

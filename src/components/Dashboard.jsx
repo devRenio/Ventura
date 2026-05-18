@@ -19,7 +19,6 @@ import {
 } from 'recharts'
 import {
   X,
-  TrendingUp,
   Users,
   Store,
   Home,
@@ -47,7 +46,6 @@ export default function Dashboard({
   open,
   dongName,
   onClose,
-  onOpenPaywall,
   targetAge = '20대',
   targetGender = '여성',
 }) {
@@ -455,21 +453,12 @@ export default function Dashboard({
             <b className="text-slate-200">{CITY_TOTAL.establishments.toLocaleString('ko-KR')}개</b>{' '}
             · 종사자 {CITY_TOTAL.workers.toLocaleString('ko-KR')}명 · 주거만족도 {satisfactionScore}/5
           </div>
-          <div className="flex gap-2">
-            <button
-              onClick={onClose}
-              className="rounded-lg border border-white/10 px-4 py-2 text-sm text-slate-300 transition hover:bg-white/5"
-            >
-              닫기
-            </button>
-            <button
-              onClick={onOpenPaywall}
-              className="rounded-lg bg-gradient-to-r from-red-500 to-orange-500 px-4 py-2 text-sm font-semibold text-white shadow-lg shadow-red-500/30 transition hover:brightness-110"
-            >
-              <TrendingUp size={14} className="-mt-0.5 mr-1 inline" />
-              고급 데이터 보기 →
-            </button>
-          </div>
+          <button
+            onClick={onClose}
+            className="rounded-lg border border-white/10 px-4 py-2 text-sm text-slate-300 transition hover:bg-white/5"
+          >
+            닫기
+          </button>
         </div>
       </div>
     </div>
